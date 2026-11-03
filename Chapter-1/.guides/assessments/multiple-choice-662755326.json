@@ -1,0 +1,63 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-662755326",
+	"source": {
+		"name": "Chapter 1: 4.2 Session Start Pattern",
+		"showName": true,
+		"instructions": "**Which of the following statements about the `pattern_session_start` flow are true? Select all that apply.**",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9ee19f6a-3ff7-8021-b7ae-765f04a74bcf",
+				"correct": false,
+				"answer": "It requires the user to send a greeting message first"
+			},
+			{
+				"_id": "b381e584-89f0-376e-c06b-878a0b2b245c",
+				"correct": true,
+				"answer": "It triggers automatically when a new conversation begins"
+			},
+			{
+				"_id": "6ef581b1-2ad9-b5d7-e967-90b804e676bd",
+				"correct": false,
+				"answer": "The flow name can be customized to anything you prefer"
+			},
+			{
+				"_id": "495684b6-496d-05da-1323-75ccc78f1534",
+				"correct": true,
+				"answer": "It must include the intent `session_start` in its NLU trigger"
+			},
+			{
+				"_id": "61924731-384e-4b4b-913e-9f4903517677",
+				"correct": true,
+				"answer": "It allows the agent to initiate the conversation"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT identify the key characteristics of the session start pattern in Rasa",
+		"guidance": "The correct answers are:\n\n- It triggers automatically when a new conversation begins: This is the core purpose of the session start pattern.\n- It must include the intent `session_start` in its NLU trigger: This specific intent is required for the pattern to work.\n- It allows the agent to initiate the conversation: This is the key benefit - the agent can greet users without them needing to speak first.\n\nThe incorrect options are:\n- It requires the user to send a greeting message first: The pattern_session_start flow is specifically designed to work without any user input.\n- The flow name can be customized to anything you prefer: The name must be exactly `pattern_session_start` for Rasa to recognize it as the session start pattern.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

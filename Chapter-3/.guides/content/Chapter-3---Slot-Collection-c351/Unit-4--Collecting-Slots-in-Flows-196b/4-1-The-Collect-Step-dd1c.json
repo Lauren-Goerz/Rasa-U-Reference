@@ -1,0 +1,20 @@
+{
+	"id": "dd1c851e-027d-5987-afbd-68acf7556645",
+	"title": "4.1 The Collect Step",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Write collect steps in flow YAML with descriptions and optional assessments."
+}

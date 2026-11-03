@@ -1,0 +1,26 @@
+action_endpoint:
+  actions_module: "actions"
+
+nlg:
+  type: rephrase
+  llm:
+    model_group: rasa_command_generation_model
+
+model_groups:
+  - id: rasa_command_generation_model
+    models:
+      - provider: rasa
+        model: rasa/command-generator-llama-3.1-8b-instruct
+        api_base: "https://tutorial-llm.rasa.ai"
+ 
+  - id: openai-gpt-5-mini
+    models:
+      - provider: openai
+        model: gpt-5-mini-2025-08-07
+        reasoning_effort: "minimal"
+        timeout: 15
+ 
+  - id: openai-embeddings
+    models:
+      - provider: openai
+        model: text-embedding-3-large

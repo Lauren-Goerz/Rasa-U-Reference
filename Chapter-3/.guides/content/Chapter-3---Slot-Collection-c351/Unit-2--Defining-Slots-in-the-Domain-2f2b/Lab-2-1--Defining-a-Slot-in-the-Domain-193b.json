@@ -1,0 +1,21 @@
+{
+	"id": "193b09b0-2567-591c-ace4-c0904d382549",
+	"title": "Lab 2.1: Defining a Slot in the Domain",
+	"files": [
+		{
+			"path": "chapter3/domain/basics.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Define the account slot and related domain entries in level3."
+}

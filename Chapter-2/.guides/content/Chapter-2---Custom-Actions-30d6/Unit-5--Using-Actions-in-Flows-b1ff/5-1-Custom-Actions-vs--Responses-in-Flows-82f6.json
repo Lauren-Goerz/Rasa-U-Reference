@@ -1,0 +1,20 @@
+{
+	"id": "82f6a014-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "5.1 Custom Actions vs. Responses in Flows",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

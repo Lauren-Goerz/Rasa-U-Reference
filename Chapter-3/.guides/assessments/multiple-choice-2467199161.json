@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2467199161",
+	"source": {
+		"name": "Chapter 3 1.2 What is a Slot? - agent slots memory",
+		"showName": false,
+		"instructions": "**What is the primary purpose of slots in a conversational agent?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "391a5365-3a3d-9a9f-342f-e0ae9f1c67cf",
+				"correct": false,
+				"answer": "To create multiple conversation threads simultaneously"
+			},
+			{
+				"_id": "9b1e76e4-712d-899e-3355-987d8a32e727",
+				"correct": false,
+				"answer": "To speed up the agent's response time"
+			},
+			{
+				"_id": "b24d17a4-8d45-8a07-8398-a5349424ff80",
+				"correct": true,
+				"answer": "To store information from the conversation so the agent can remember and use it later"
+			},
+			{
+				"_id": "6a09b1ef-d086-80d4-2d9a-f1849733974f",
+				"correct": false,
+				"answer": "To translate user messages into different languages"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify the primary purpose of slots in conversational agents",
+		"guidance": "The correct answer is 'To store information from the conversation so the agent can remember and use it later.' Slots function as memory variables that allow agents to persist information throughout a conversation. Without slots, agents would forget user-provided information immediately after receiving it, making them unable to maintain context or complete multi-step tasks. The example shows how a agent without slots forgets the account number immediately, while a agent with slots can remember and reuse that information later in the conversation.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

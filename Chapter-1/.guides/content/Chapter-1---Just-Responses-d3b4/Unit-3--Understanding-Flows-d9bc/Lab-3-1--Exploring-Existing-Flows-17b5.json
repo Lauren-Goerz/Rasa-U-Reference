@@ -1,0 +1,25 @@
+{
+	"id": "17b529d4-c494-b079-9562-9928856a8076",
+	"title": "Lab 3.1: Exploring Existing Flows",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "chapter1/data/basics/greet.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Inspect existing YAML flows and compare how descriptions differ across flows."
+}

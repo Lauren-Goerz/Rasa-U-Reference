@@ -1,0 +1,97 @@
+{
+	"type": "fill-in-the-blanks",
+	"taskId": "fill-in-the-blanks-201030010",
+	"source": {
+		"name": "Lab 3.1: action_holiday_hours.py (fill-in-the-blanks)",
+		"showName": false,
+		"instructions": "**Fill in the blanks** to complete **`action_holiday_hours`**. **After you pass:** copy the full script into **`chapter2/actions/action_holiday_hours.py`** (create the file in `actions/` if needed), **save**, then run the **Code Test** (the next assessment).",
+		"showValues": true,
+		"text": "Once you have completed the fill in the blank exercise, copy the full script into **`chapter2/actions/action_holiday_hours.py`** and run the **Code Test** in the assessment below.\n\n```python\nfrom datetime import <<<datetime>>>\nfrom typing import <<<Any, Dict, List, Text>>>\n\nfrom rasa_sdk import <<<Action, Tracker>>>\nfrom rasa_sdk.executor import <<<CollectingDispatcher>>>\n\n\nclass <<<ActionHolidayHours>>>(Action):\n    \"\"\"Returns the bank's holiday schedule based on today's date.\"\"\"\n\n    def name(self) -> Text:\n        return \"<<<action_holiday_hours>>>\"\n\n    def run(\n        self,\n        dispatcher: CollectingDispatcher,\n        tracker: Tracker,\n        domain: Dict[Text, Any],\n    ) -> <<<List[Dict[Text, Any]]>>>:\n        now = <<<datetime.now()>>>\n        if <<<now.month == 1 and now.day == 1>>>:\n            message = \"We're closed today for New Year's Day.\"\n        elif <<<now.month == 7 and now.day == 4>>>:\n            message = \"We're closed today for Independence Day.\"\n        elif <<<now.month == 12 and now.day == 25>>>:\n            message = \"We're closed today for Christmas.\"\n        else:\n            message = (\n                \"We're closed on New Year's Day, Independence Day, and Christmas. \"\n                \"On other holidays we may have limited hours—please call ahead.\"\n            )\n        dispatcher.<<<utter_message>>>(text=message)\n        return <<<[]>>>\n```",
+		"distractors": "date\nList[Dict[Any, Any]]\nActionExecutor\nActionBankHours\naction_bank_hours\ndatetime.date.today()\nutter_response\nreturn None\n{}",
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [
+				"chapter2/actions/action_bank_hours.py",
+				"level2/actions/action_bank_hours.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter2/actions/action_bank_hours.py"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "The correct answers match the course **`chapter2/actions/action_holiday_hours.py`** solution:\n\n* **Imports** — `from datetime import datetime`; `typing` imports; `Action` and `Tracker` from `rasa_sdk`; `CollectingDispatcher` from `rasa_sdk.executor`.\n* **Class** — `ActionHolidayHours(Action)`; `name()` returns `action_holiday_hours`; `run()` returns `List[Dict[Text, Any]]`.\n* **Date logic** — `now = datetime.now()`; for each holiday use **`now.month` first, then `now.day`** (e.g. `now.month == 1 and now.day == 1` for Jan 1); else branch uses the two-line general schedule message (em dash before *please call ahead*).\n* **Finish** — `dispatcher.utter_message(text=message)` and `return []`.\n\n```python\nfrom datetime import datetime\nfrom typing import Any, Dict, List, Text\n\nfrom rasa_sdk import Action, Tracker\nfrom rasa_sdk.executor import CollectingDispatcher\n\n\nclass ActionHolidayHours(Action):\n    \"\"\"Returns the bank's holiday schedule based on today's date.\"\"\"\n\n    def name(self) -> Text:\n        return \"action_holiday_hours\"\n\n    def run(\n        self,\n        dispatcher: CollectingDispatcher,\n        tracker: Tracker,\n        domain: Dict[Text, Any],\n    ) -> List[Dict[Text, Any]]:\n        now = datetime.now()\n        if now.month == 1 and now.day == 1:\n            message = \"We're closed today for New Year's Day.\"\n        elif now.month == 7 and now.day == 4:\n            message = \"We're closed today for Independence Day.\"\n        elif now.month == 12 and now.day == 25:\n            message = \"We're closed today for Christmas.\"\n        else:\n            message = (\n                \"We're closed on New Year's Day, Independence Day, and Christmas. \"\n                \"On other holidays we may have limited hours—please call ahead.\"\n            )\n        dispatcher.utter_message(text=message)\n        return []\n```\n\nAfter you pass: create **`chapter2/actions/action_holiday_hours.py`**, paste the completed script, save, then run the **Code Test** (next assessment).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"tokens": {
+			"blank": [
+				"datetime",
+				"Any, Dict, List, Text",
+				"Action, Tracker",
+				"CollectingDispatcher",
+				"ActionHolidayHours",
+				"action_holiday_hours",
+				"List[Dict[Text, Any]]",
+				"datetime.now()",
+				"now.month == 1 and now.day == 1",
+				"now.month == 7 and now.day == 4",
+				"now.month == 12 and now.day == 25",
+				"utter_message",
+				"[]"
+			],
+			"text": [
+				"Once you have completed the fill in the blank exercise, copy the full script into **`chapter2/actions/action_holiday_hours.py`** and run the **Code Test** in the assessment below.\n\n```python\nfrom datetime import ",
+				0,
+				"\nfrom typing import ",
+				0,
+				"\n\nfrom rasa_sdk import ",
+				0,
+				"\nfrom rasa_sdk.executor import ",
+				0,
+				"\n\n\nclass ",
+				0,
+				"(Action):\n    \"\"\"Returns the bank's holiday schedule based on today's date.\"\"\"\n\n    def name(self) -> Text:\n        return \"",
+				0,
+				"\"\n\n    def run(\n        self,\n        dispatcher: CollectingDispatcher,\n        tracker: Tracker,\n        domain: Dict[Text, Any],\n    ) -> ",
+				0,
+				":\n        now = ",
+				0,
+				"\n        if ",
+				0,
+				":\n            message = \"We're closed today for New Year's Day.\"\n        elif ",
+				0,
+				":\n            message = \"We're closed today for Independence Day.\"\n        elif ",
+				0,
+				":\n            message = \"We're closed today for Christmas.\"\n        else:\n            message = (\n                \"We're closed on New Year's Day, Independence Day, and Christmas. \"\n                \"On other holidays we may have limited hours—please call ahead.\"\n            )\n        dispatcher.",
+				0,
+				"(text=message)\n        return ",
+				0,
+				"\n```"
+			],
+			"regexPositions": []
+		}
+	}
+}

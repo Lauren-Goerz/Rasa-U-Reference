@@ -1,0 +1,94 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-389374509",
+	"source": {
+		"name": "Lab 5.1: Using Actions in Flows.",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following checks must pass (in chapter2/data/basics/):\n\n• Check 1: hours.yml exists.\n• Check 2: hours flow exists (flows:, hours:).\n• Check 3: hours flow uses action_bank_hours in steps.\n• Check 4: holiday_hours.yml exists.\n• Check 5: holiday_hours flow exists and uses action_holiday_hours in steps.\n• Check 6: holiday_hours flow has name: and description:.",
+		"command": "bash /home/codio/workspace/.guides/secure/level2_graders/lab_5.1_grader.sh",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"chapter2/data/basics/greet.yml",
+				".guides/secure/level2_graders/lab_5.1_grader.sh"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter2/data/basics/greet.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "The grader checks that data/basics/hours.yml and data/basics/holiday_hours.yml exist and define flows that use the correct actions.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 12,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 5: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 6: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

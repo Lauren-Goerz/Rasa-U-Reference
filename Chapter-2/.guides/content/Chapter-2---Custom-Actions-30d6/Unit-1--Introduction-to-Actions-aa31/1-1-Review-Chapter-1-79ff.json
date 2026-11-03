@@ -1,0 +1,20 @@
+{
+	"id": "79ff5057-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "1.1 Review Chapter 1",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

@@ -1,0 +1,25 @@
+{
+	"id": "c4f0a1b2-3505-4d5e-9f6a-7b8c9d0e1f2a",
+	"title": "Lab 3.5: Complete Your Agent for Training",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "chapter1/domain/basics.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Register hours and balance responses and flows in chapter1 for later training."
+}

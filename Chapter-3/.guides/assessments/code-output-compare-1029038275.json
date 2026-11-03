@@ -1,0 +1,86 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1029038275",
+	"source": {
+		"name": "Lab 5.1: Training and Testing with Slots",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following must be true:\n\n• Check 1: Project root has an active .venv.\n• Check 2: A trained model (.tar.gz) exists in `chapter3/models/`.\n• Check 3: The model was created within the last 10 minutes.\n• Check 4: logs/logs.out has no obvious errors (or no log file yet).\n• Check 5: Training artifacts present for inspect/testing.\n\nFull score: 12/12. Re-run `rasa train` from chapter3 if a check fails.",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level3_graders/lab_5.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level3_graders/lab_6.1_grader.py"
+			],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "The grader lists Check 1–5 like Lab 3.1 / Lab 6.2. If Check 3 or 4 is partial, re-run training from chapter3. Full credit: 12/12.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 12,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 5: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

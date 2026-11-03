@@ -1,0 +1,21 @@
+{
+	"id": "level5-page-5-1-Training-Level-5-L5f1",
+	"title": "Lab 5.2 Testing your Sub-Agent",
+	"files": [
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter6"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

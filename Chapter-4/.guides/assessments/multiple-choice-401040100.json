@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-401040100",
+	"source": {
+		"name": "Chapter 4: 1.5 Test Your Knowledge - multiple slots",
+		"showName": false,
+		"instructions": "**What do we mean by \"multiple slots\"?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a0104010-0001-4000-8000-000000000001",
+				"correct": false,
+				"answer": "Multiple flows that each collect one slot"
+			},
+			{
+				"_id": "a0104010-0002-4000-8000-000000000002",
+				"correct": true,
+				"answer": "Several memory variables (e.g. amount, recipient, account_from) that the agent can collect and use together in one flow"
+			},
+			{
+				"_id": "a0104010-0003-4000-8000-000000000003",
+				"correct": false,
+				"answer": "Multiple actions that each read one slot"
+			},
+			{
+				"_id": "a0104010-0004-4000-8000-000000000004",
+				"correct": false,
+				"answer": "Several response messages for the same slot"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT define multiple slots in Level 4",
+		"guidance": "Multiple slots are several memory variables the agent collects in one conversation and can use together (e.g. in one action).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

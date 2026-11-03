@@ -1,0 +1,17 @@
+{
+	"id": "3d072b6f-db87-36e3-a0ce-2436511faf3d",
+	"title": "0.1 Welcome & Getting Started",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

@@ -1,0 +1,18 @@
+{
+	"id": "82189403-1d8e-aca8-abd6-d70679b7485d",
+	"title": "0.2 Getting Help",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

@@ -1,0 +1,32 @@
+# secrets
+Codio_Git_push_issue.txt
+.env
+.guides/secrets/
+secure/rasa_env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# rasa artifacts
+models/
+.rasa/
+logs/
+# Rasa inspect --log-file does not create logs/; keep level4/logs in repo
+!level4/logs/
+!level4/logs/.gitkeep
+level4/logs/*.out
+# ad-hoc debug dumps (e.g. copied Inspector logs)
+level4/logs/*.txt
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+desktop.ini
+
+# Cursor – keep all Cursor data local (chats, transcripts, workspace state)
+.cursor/
+cursor_*.md
+*cursor*chat*.md

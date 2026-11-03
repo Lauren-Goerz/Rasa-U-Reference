@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1201400001",
+	"source": {
+		"name": "Chapter 2: 1.4 Test Your Knowledge - What is an Action",
+		"showName": false,
+		"instructions": "**What is a custom action in Rasa?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9dd55676-d714-434e-ad77-46ddb22cb6d1",
+				"correct": false,
+				"answer": "A predefined text message defined under responses in the domain"
+			},
+			{
+				"_id": "7f7473ce-a246-a0b4-be04-612df2402841",
+				"correct": true,
+				"answer": "Custom Python code that the agent can execute (e.g. calculations, APIs, dynamic logic)"
+			},
+			{
+				"_id": "6af06eee-82ee-9ce1-5ecb-49e6454f3351",
+				"correct": false,
+				"answer": "A flow step that collects user input"
+			},
+			{
+				"_id": "dfe8677c-3b49-fc4a-152e-4e70f6122a11",
+				"correct": false,
+				"answer": "A configuration file that defines agent intents"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT define what an action is in Rasa",
+		"guidance": "An action is custom Python code that your agent can execute. Actions allow the agent to do more than send predefined text—they can perform calculations, access databases, call APIs, and run any Python logic you write. Predefined text is handled by responses (utter_*); actions are defined in Python files in the actions/ folder and registered in the domain.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

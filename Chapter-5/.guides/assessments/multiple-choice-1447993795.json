@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1447993795",
+	"source": {
+		"name": "5 5.1 Knowledge Check",
+		"showName": false,
+		"instructions": "You edit `banking_policies.txt` to update a transfer fee. What do you need to do for the agent to use the new value?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "faf47c26-06dc-7acf-713c-eedb4012662e",
+				"correct": false,
+				"answer": "Restart `rasa run actions`"
+			},
+			{
+				"_id": "48827b52-7e0d-8209-df21-2cb6264e3d5a",
+				"correct": false,
+				"answer": "Restart `rasa run` or `rasa inspect`"
+			},
+			{
+				"_id": "7583bc00-94c9-057a-09ae-3134816e673f",
+				"correct": true,
+				"answer": "Run `rasa train` again"
+			},
+			{
+				"_id": "e9b8ed98-3945-7fc3-55b0-f0363e633678",
+				"correct": false,
+				"answer": "Nothing. FAISS monitors the `docs/` folder and updates automatically."
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT know search command",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

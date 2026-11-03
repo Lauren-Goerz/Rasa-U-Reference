@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3629141196",
+	"source": {
+		"name": "Chapter 3: 1.5 - Test Your Knowledge: collect step behavior",
+		"showName": false,
+		"instructions": "**When a flow has a `collect: account` step and the `account` slot is empty, what does the agent do?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "333c98ac-8a51-f546-4828-ee91283fd342",
+				"correct": true,
+				"answer": "Asks the user for the value (using the `utter_ask_account` response) and stores it in the slot"
+			},
+			{
+				"_id": "1ef1c731-f5f9-90da-896f-4e72671ad4a7",
+				"correct": false,
+				"answer": "Skips the step and continues to the next step"
+			},
+			{
+				"_id": "3e4dd453-d16e-4b10-5284-c67eb667cbe3",
+				"correct": false,
+				"answer": "Reads the slot from the tracker"
+			},
+			{
+				"_id": "f4d13a8a-0ef4-70b7-891f-258fcb15a4a5",
+				"correct": false,
+				"answer": "Deletes the slot value"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify what happens when a collect step encounters an empty slot",
+		"guidance": "The correct answer is: Asks the user for the value (using the `utter_ask_account` response) and stores it in the slot. The `collect:` step gets the slot value; if empty, the agent asks using `utter_ask_*` and stores the answer. The agent does not skip steps when slots are empty, nor does it delete slot values or simply read from the tracker without prompting for missing information.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

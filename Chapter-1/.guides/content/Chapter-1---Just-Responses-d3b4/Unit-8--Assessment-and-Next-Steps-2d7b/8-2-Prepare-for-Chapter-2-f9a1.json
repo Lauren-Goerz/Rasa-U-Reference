@@ -1,0 +1,20 @@
+{
+	"id": "f9a1d7ec-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "8.2 Prepare for Chapter 2",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-501060101",
+	"source": {
+		"name": "Chapter 6: 6.1 Knowledge Check - sub-agent config location",
+		"showName": false,
+		"instructions": "**Where is the `financial_advisor` sub-agent config file located?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a5010601-0005-4000-8000-000000000005",
+				"correct": false,
+				"answer": "`chapter6/endpoints.yml`"
+			},
+			{
+				"_id": "a5010601-0006-4000-8000-000000000006",
+				"correct": true,
+				"answer": "`chapter6/sub_agents/branch_appointment_booking/config.yml`"
+			},
+			{
+				"_id": "a5010601-0007-4000-8000-000000000007",
+				"correct": false,
+				"answer": "`chapter6/domain/basics.yml`"
+			},
+			{
+				"_id": "a5010601-0008-4000-8000-000000000008",
+				"correct": false,
+				"answer": "`chapter6/data/basics/appointment_booking.yml`"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT locate sub-agent config",
+		"guidance": "Sub-agent configs live under `sub_agents/<name>/`. Rasa discovers the sub-agent by the `name` field in this file. The other options are the MCP registration file, the domain file, and the flow file respectively — each has a different role.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

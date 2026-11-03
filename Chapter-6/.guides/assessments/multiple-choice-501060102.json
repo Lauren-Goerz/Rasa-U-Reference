@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-501060102",
+	"source": {
+		"name": "Chapter 6: 6.1 Knowledge Check - sub-agent description",
+		"showName": false,
+		"instructions": "**What is `agent.description` in the sub-agent config?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a5010601-0009-4000-8000-000000000009",
+				"correct": false,
+				"answer": "A comment that Rasa ignores at runtime"
+			},
+			{
+				"_id": "a5010601-0010-4000-8000-000000000010",
+				"correct": false,
+				"answer": "A label shown to users when they start the conversation"
+			},
+			{
+				"_id": "a5010601-0011-4000-8000-000000000011",
+				"correct": false,
+				"answer": "The name of the flow that calls the sub-agent"
+			},
+			{
+				"_id": "a5010601-0012-4000-8000-000000000012",
+				"correct": true,
+				"answer": "The sub-agent's system prompt: the LLM reads it at runtime to understand what to do, in what order, and when to finish"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT explain purpose of agent.description",
+		"guidance": "The description is passed directly into the sub-agent's prompt. It controls how the LLM reasons, which tools it calls, and when it calls `task_completed`. Vague descriptions produce vague behaviour.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

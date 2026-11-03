@@ -1,0 +1,62 @@
+{
+	"type": "fill-in-the-blanks",
+	"taskId": "fill-in-the-blanks-1454903744",
+	"source": {
+		"name": "slot-collection-behavior",
+		"showName": false,
+		"instructions": "**Fill in the blanks to describe how slot collection works in flows.**",
+		"showValues": true,
+		"text": "When a flow encounters a `collect:` step:\n\n* If the slot is <<<empty>>>, the agent will <<<ask>>> for the value using an `utter_ask_*` response\n* If the slot already has a <<<value>>>, the flow <<<continues>>> immediately without asking\n* When the user provides input, the agent <<<stores>>> it in the specified slot\n\nThis behavior allows flows to be <<<efficient>>> by skipping unnecessary questions when data is already available.",
+		"distractors": "null\nrequests\ndata\nstops\nfast",
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "The correct answers are:\n\n* **empty** - When a slot has no value, the agent needs to collect it\n* **ask** - The agent prompts the user using the appropriate utter_ask response\n* **value** - If the slot already contains data, no collection is needed\n* **continues** - The flow moves to the next step without interruption\n* **stores** - User input is saved into the designated slot\n* **efficient** - This conditional behavior prevents redundant questions and improves user experience\n\nThis conditional collection mechanism is key to creating smooth conversational flows that adapt based on available information.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 20,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"tokens": {
+			"blank": [
+				"empty",
+				"ask",
+				"value",
+				"continues",
+				"stores",
+				"efficient"
+			],
+			"text": [
+				"When a flow encounters a `collect:` step:\n\n* If the slot is ",
+				0,
+				", the agent will ",
+				0,
+				" for the value using an `utter_ask_*` response\n* If the slot already has a ",
+				0,
+				", the flow ",
+				0,
+				" immediately without asking\n* When the user provides input, the agent ",
+				0,
+				" it in the specified slot\n\nThis behavior allows flows to be ",
+				0,
+				" by skipping unnecessary questions when data is already available."
+			],
+			"regexPositions": []
+		}
+	}
+}

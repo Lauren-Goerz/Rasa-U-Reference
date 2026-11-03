@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-771372762",
+	"source": {
+		"name": "5 5.1 Knowledge Check Flow vs. Knowledge Base",
+		"showName": false,
+		"instructions": "Which of these are likely better be handled by a flow rather than the knowledge base?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "317255ed-1924-ee3d-38c3-8f679aa5576f",
+				"correct": false,
+				"answer": "\"What is the daily transfer limit?\""
+			},
+			{
+				"_id": "93661795-1685-3ac0-4a0d-424b4b6f1ba2",
+				"correct": false,
+				"answer": "\"What Interest Rate does the savings account offer?\""
+			},
+			{
+				"_id": "cc560fb8-a5f4-8e70-3d49-5b031756ddb0",
+				"correct": true,
+				"answer": "\"Transfer $200 to Jamie from account 44445555\"\n"
+			},
+			{
+				"_id": "9f442d7c-b8ec-4597-27e9-cc1e5948c4ae",
+				"correct": false,
+				"answer": "\"Do you charge ATM fees?\""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2723206154",
+	"source": {
+		"name": "Lab 3.1: Exploring Existing Flows",
+		"showName": true,
+		"instructions": "**Which of the following represents the correct structure for a basic flow file?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "68080825-395d-834e-dede-3c404364c918",
+				"correct": false,
+				"answer": "```yaml-hide-clipboard\ngreet:\n  flows:\n    name: say hello\n    description: Greet the user when they start a conversation.\n    steps:\n      - action: utter_greet\n```"
+			},
+			{
+				"_id": "176a1d04-01d7-15df-7569-a93e712a4a1f",
+				"correct": false,
+				"answer": "```yaml-hide-clipboard\nflows:\n  greet:\n    name: say hello\n    steps:\n      - action: utter_greet\n    explanation: Greet the user when they start a conversation.\n```"
+			},
+			{
+				"_id": "e5b0146b-4706-a4e1-20f3-d57c5de2acf1",
+				"correct": true,
+				"answer": "```yaml-hide-clipboard\nflows:\n  greet:\n    name: say hello\n    description: Greet the user when they start a conversation.\n    steps:\n      - action: utter_greet\n```"
+			},
+			{
+				"_id": "ec9f30d6-5fc9-1224-e9bb-e6f562dfdcc9",
+				"correct": false,
+				"answer": "```yaml-hide-clipboard\nname: say hello\ndescription: Greet the user when they start a conversation.\nflows:\n  greet:\n    steps:\n      - action: utter_greet\n```"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"chapter1/data/basics/greet.yml"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter1/data/basics/greet.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify the correct structure of a flow file",
+		"guidance": "The correct structure for a flow file begins with the `flows:` key, followed by a flow identifier (in this case, `greet:`). Under the flow identifier, we have the `name:`, `description:`, and `steps:` fields in that order.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3751028362",
+	"source": {
+		"name": "Lab 5.2 - Testing Slot Collection: slot persistence",
+		"showName": false,
+		"instructions": "**After you give \"1234\" as your account number, you say \"What's my balance?\" again. What should happen?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "3f33bde5-fd94-0430-a316-db7882671980",
+				"correct": false,
+				"answer": "The agent asks for your account number again"
+			},
+			{
+				"_id": "b848edd8-26a5-53b7-3e45-ed32451dfa19",
+				"correct": true,
+				"answer": "The agent remembers 1234 and replies with the balance without asking"
+			},
+			{
+				"_id": "10e28bd9-6ac5-24f2-ac3b-b459e811c84d",
+				"correct": false,
+				"answer": "The agent says \"Hello\""
+			},
+			{
+				"_id": "9bd5f21b-f8ed-8343-b7ec-161cc732c9dc",
+				"correct": false,
+				"answer": "Nothing; the agent ignores the message"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT understand how slot persistence works in conversational AI",
+		"guidance": "The correct answer is: The agent remembers 1234 and replies with the balance without asking. This demonstrates slot persistence, which means the agent remembers the account number across conversation turns and does not need to re-ask for information it has already collected. The other options are incorrect because they don't demonstrate proper slot persistence functionality.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

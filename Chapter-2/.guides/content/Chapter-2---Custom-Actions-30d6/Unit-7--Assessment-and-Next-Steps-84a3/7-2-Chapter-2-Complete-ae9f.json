@@ -1,0 +1,19 @@
+{
+	"id": "ae9ff630-20a5-362f-e129-2b74dd5f1b46",
+	"title": "7.2 Chapter 2 Complete",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

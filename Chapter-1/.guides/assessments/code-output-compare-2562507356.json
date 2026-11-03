@@ -1,0 +1,58 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-2562507356",
+	"source": {
+		"name": "Lab 6.2: Using Rasa Inspector",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following checks must pass:\n\n• Check 1: Rasa Inspector started with model and log evidence.",
+		"command": "bash /home/codio/workspace/.guides/secure/level1_graders/lab_6.2_grader.sh",
+		"preExecuteCommand": "cd /home/codio/workspace && set -a && if [ -f .env ]; then . ./.env; fi && if [ -f level1/.env ]; then . ./level1/.env; fi; set +a",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level1_graders/lab_6.2_grader.sh"
+			],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 6,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Successfully passed!",
+				"showFeedback": true,
+				"feedback": "Rasa Inspector started with model and log evidence."
+			}
+		]
+	}
+}

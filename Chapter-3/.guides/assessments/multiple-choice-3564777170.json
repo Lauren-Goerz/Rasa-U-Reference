@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3564777170",
+	"source": {
+		"name": "Chapter 3: 1.5 slot type and naming",
+		"showName": false,
+		"instructions": "**In Chapter 3, which slot type do we use in the domain, and which of these is a good slot name?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "73e5cdf3-3ac9-10e9-40a3-53d6c1a02c5a",
+				"correct": false,
+				"answer": "Type: `bool`, good name: `slot1`"
+			},
+			{
+				"_id": "de212219-cdeb-94e1-ba5e-36c30616c4df",
+				"correct": true,
+				"answer": "Type: `text`, good name: `account`"
+			},
+			{
+				"_id": "06ac61de-28d6-b8da-e66c-79bd74b81195",
+				"correct": false,
+				"answer": "Type: `list`, good name: `a`"
+			},
+			{
+				"_id": "bab4b89c-b1c2-4168-6256-48803ffd5c82",
+				"correct": false,
+				"answer": "Type: `text`, good name: `data`"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify the correct slot type and naming convention for Level 3",
+		"guidance": "The correct answer is Type: `text`, good name: `account`. In Chapter 3, we use `text` slots in the domain. Good slot names should be descriptive and lowercase (e.g. `account`). We should avoid vague names like `a`, `slot1`, or `data` as they don't clearly indicate what information the slot is meant to store.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

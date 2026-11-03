@@ -1,0 +1,14 @@
+{
+	"id": "30d6a1b2-c3d4-4e5f-6a7b-8c9d0e1f2a3b",
+	"title": "Chapter 2 - Custom Actions",
+	"type": "chapter",
+	"order": [
+		"Unit-1--Introduction-to-Actions-aa31",
+		"Unit-2--Understanding-the-Action-Class-6b66",
+		"Unit-3--Creating-Your-First-Action-5090",
+		"Unit-4--Registering-Custom-Actions-in-the-Domain-a7fc",
+		"Unit-5--Using-Actions-in-Flows-b1ff",
+		"Unit-6--Training---Testing-Actions-b86b",
+		"Unit-7--Assessment-and-Next-Steps-84a3"
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2140037498",
+	"source": {
+		"name": "Level 1: 8.1 Knowledge check - responses location",
+		"showName": false,
+		"instructions": "**Where are responses defined?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "cfb39d28-02af-dd43-8d96-6cfb9b6f9587",
+				"correct": false,
+				"answer": "data/basics/*.yml"
+			},
+			{
+				"_id": "5f2f2427-788b-8916-158c-e7d40326ec2a",
+				"correct": true,
+				"answer": "domain/basics.yml"
+			},
+			{
+				"_id": "9b700849-8d67-c952-68a3-aef09563b1f6",
+				"correct": false,
+				"answer": "config.yml"
+			},
+			{
+				"_id": "575208f1-7b05-112c-dc99-2f6c0f58e634",
+				"correct": false,
+				"answer": "actions/*.py"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify where responses are defined in the system",
+		"guidance": "The correct answer is domain/basics.yml. This is where the system's responses are configured and stored. The other options serve different purposes: data/basics/*.yml contains training data, config.yml contains general configuration settings, and actions/*.py contains custom action code.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

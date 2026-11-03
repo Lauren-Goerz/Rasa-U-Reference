@@ -1,0 +1,20 @@
+{
+	"id": "b0605bb7-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "2.2 Understanding the Parameters",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

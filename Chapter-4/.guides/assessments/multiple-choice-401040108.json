@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-401040108",
+	"source": {
+		"name": "Chapter 4: 6.1 Knowledge Check - domain slot and response",
+		"showName": false,
+		"instructions": "**What must be in the domain for each new slot used in a flow?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a0104018-0001-4000-8000-000000000001",
+				"correct": false,
+				"answer": "Only the slot name under `slots:`"
+			},
+			{
+				"_id": "a0104018-0002-4000-8000-000000000002",
+				"correct": true,
+				"answer": "The slot under `slots:` and a corresponding `utter_ask_<slot_name>` under `responses:`"
+			},
+			{
+				"_id": "a0104018-0003-4000-8000-000000000003",
+				"correct": false,
+				"answer": "The slot and an action that uses it"
+			},
+			{
+				"_id": "a0104018-0004-4000-8000-000000000004",
+				"correct": false,
+				"answer": "Only the response; slots are optional"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify domain requirements for slots",
+		"guidance": "Each slot needs an entry under `slots:` and a matching `utter_ask_<slot_name>` under `responses:` so the agent can ask when the slot is empty.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-372693770",
+	"source": {
+		"name": "Chapter 1: 5.2 - Credentials.yml Purpose",
+		"showName": false,
+		"instructions": "**What is the primary purpose of the credentials.yml file in a Rasa chat agent project?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "9c7a8ec6-1b30-7fa5-f893-21cecbd6868e",
+				"correct": false,
+				"answer": "It stores usernames and passwords for the agent's database"
+			},
+			{
+				"_id": "acfc4aa1-5d87-2748-96ab-b0c05d080826",
+				"correct": true,
+				"answer": "It defines how the agent connects to chat interfaces"
+			},
+			{
+				"_id": "a353220c-e129-a2e1-a15b-53e0aca6ffb3",
+				"correct": false,
+				"answer": "It contains the training data for the agent's NLU model"
+			},
+			{
+				"_id": "eba62c0a-e819-2cb1-9425-4e4d1179fd5f",
+				"correct": false,
+				"answer": "It configures the agent's dialogue management policies"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT identify the purpose and key components of the credentials.yml file in Rasa",
+		"guidance": "The credentials.yml file defines how the agent connects to chat interfaces. It contains configuration for channels like REST API, Socket.IO, Slack, Microsoft Teams, and other messaging platforms. This file does not store sensitive login information like usernames and passwords for databases (that would typically be in an environment file), nor does it contain training data (which would be in data files) or dialogue management configurations (which would be in config.yml).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

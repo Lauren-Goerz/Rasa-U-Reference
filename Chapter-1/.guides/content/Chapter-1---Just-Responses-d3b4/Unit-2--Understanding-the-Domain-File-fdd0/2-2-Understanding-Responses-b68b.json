@@ -1,0 +1,25 @@
+{
+	"id": "b68bf9da-ae39-b882-ea77-1e09def7b4e2",
+	"title": "2.2 Understanding Responses",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "chapter1/domain/basics.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

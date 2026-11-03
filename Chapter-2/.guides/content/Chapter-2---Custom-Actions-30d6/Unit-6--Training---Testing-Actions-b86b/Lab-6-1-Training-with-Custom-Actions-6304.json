@@ -1,0 +1,25 @@
+{
+	"id": "6304cd50-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "Lab 6.1 Training with Custom Actions",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1201400005",
+	"source": {
+		"name": "Chapter 2: 1.4 Test Your Knowledge - Action Class Structure",
+		"showName": false,
+		"instructions": "**Which two methods must every Rasa action class implement?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d4e5f6a7-b8c9-0123-def0-234567890123",
+				"correct": false,
+				"answer": "execute() and send_message()"
+			},
+			{
+				"_id": "d4e5f6a7-b8c9-0123-def0-234567890125",
+				"correct": true,
+				"answer": "name() and run()"
+			},
+			{
+				"_id": "d4e5f6a7-b8c9-0123-def0-234567890124",
+				"correct": false,
+				"answer": "init() and run()"
+			},
+			{
+				"_id": "d4e5f6a7-b8c9-0123-def0-234567890126",
+				"correct": false,
+				"answer": "name() and execute()"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify required methods of an action class",
+		"guidance": "Every action is a Python class that inherits from Action and must implement: (1) name() — returns the action name (e.g. 'action_bank_hours'), which must match what is registered in the domain; (2) run() — contains your custom logic and receives dispatcher, tracker, and domain. You send messages with dispatcher.utter_message() inside run().",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

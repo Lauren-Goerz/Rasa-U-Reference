@@ -1,0 +1,66 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-314249565",
+	"source": {
+		"name": "Lab 2.1: YAML Syntax for Responses",
+		"showName": true,
+		"instructions": "**Which of the following is the correct YAML syntax for a response with multiple variations in the domain/basics.yml file?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "43d4bbeb-fe9d-6ec1-176d-fe6a5371e0d2",
+				"correct": true,
+				"answer": "```yaml-hide-clipboard\nresponses:\n  utter_greet:\n    - text: \"Hello there!\"\n    - text: \"Hi, how can I help?\"\n      metadata:\n        rephrase: True\n```"
+			},
+			{
+				"_id": "dfcdcac6-5150-7bcf-7c8e-02227910c178",
+				"correct": false,
+				"answer": "```yaml-hide-clipboard\nresponses:\n  utter_greet:\n    text: \"Hello there!\"\n    text: \"Hi, how can I help?\"\n    metadata:\n      rephrase: True\n```"
+			},
+			{
+				"_id": "82326558-1777-55a5-b76b-460bcef45a56",
+				"correct": false,
+				"answer": "```yaml-hide-clipboard\nresponses:\n  - utter_greet:\n      text: \"Hello there!\"\n      text: \"Hi, how can I help?\"\n      metadata:\n        rephrase: True\n```"
+			},
+			{
+				"_id": "beede104-a70f-76e8-b434-4702a9471bf8",
+				"correct": false,
+				"answer": "```yaml-hide-clipboard\nresponses:\n  utter_greet:\n    - \"Hello there!\"\n    - \"Hi, how can I help?\"\n    - metadata:\n        rephrase: True\n```"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"domain/basics.yml"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"path": "domain/basics.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify the correct YAML syntax for chat agent responses",
+		"guidance": "The correct syntax for multiple response variations in YAML requires:\n\n1. The response name (utter_greet) properly indented under 'responses:'\n2. Each variation preceded by a dash (-) and the 'text:' property\n3. Metadata aligned with 'text:' (not as a separate variation)\n\nThe first option correctly shows multiple response variations where each text option is preceded by a dash, and the metadata is aligned with the second text variation.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

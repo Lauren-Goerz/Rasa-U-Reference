@@ -1,0 +1,21 @@
+{
+	"id": "c3d4d7ec-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "Lab 6.1: Training Your Agent",
+	"files": [
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Train from chapter1 with venv active, verify a new model under models/, use common-error cues to fix YAML and license issues, and follow optional local steps when not using Codio."
+}

@@ -1,0 +1,14 @@
+{
+	"id": "level5-chapter-f9e0-tool-calling",
+	"type": "chapter",
+	"title": "Chapter 6 - Sub-Agents",
+	"order": [
+		"Unit-1--How-Sub-Agents-Work-leve",
+		"Unit-2--Setting-up-the-MCP-Server-leve",
+		"Unit-3--Building-a-Sub-Agent-leve",
+		"Unit-4--Calling-a-Sub-Agent-leve",
+		"Unit-5--Training-and-Testing-L5u5",
+		"Unit-6--Summary-and-Next-Steps-L5u6"
+	],
+	"content": ""
+}

@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1202300001",
+	"source": {
+		"name": "Chapter 2: 2.3 Test Your Knowledge - run() Parameters",
+		"showName": false,
+		"instructions": "**What are the three parameters passed to a custom action's `run()` method?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e5f6a7b8-c9d0-1234-ef01-345678901234",
+				"correct": false,
+				"answer": "dispatcher, message, domain"
+			},
+			{
+				"_id": "e5f6a7b8-c9d0-1234-ef01-345678901235",
+				"correct": true,
+				"answer": "dispatcher, tracker, domain"
+			},
+			{
+				"_id": "e5f6a7b8-c9d0-1234-ef01-345678901236",
+				"correct": false,
+				"answer": "tracker, domain, response"
+			},
+			{
+				"_id": "e5f6a7b8-c9d0-1234-ef01-345678901237",
+				"correct": false,
+				"answer": "self, dispatcher, tracker"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify run() method parameters",
+		"guidance": "The `run()` method signature is `run(self, dispatcher, tracker, domain)`. `dispatcher` is used to send messages to the user (e.g. dispatcher.utter_message()). `tracker` holds conversation history and slots (used in later chapters). `domain` holds the domain configuration. You use dispatcher to send text; tracker and domain are available for more advanced logic.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

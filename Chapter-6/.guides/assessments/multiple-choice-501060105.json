@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-501060105",
+	"source": {
+		"name": "Chapter 6: 1.3 Test Your Knowledge - Explore Mortgage Options",
+		"showName": false,
+		"instructions": "Your banking agent already handles transfers via a guided flow. A product manager asks you to add a feature where users can explore their mortgage options in a free-form conversation comparing rates, running affordability calculations, asking follow-up questions. Which approach fits best?",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a5010602-0001-4000-8000-000000000001",
+				"correct": true,
+				"answer": "A sub-agent with MCP tools that can look up products, run calculations, and adapt to wherever the conversation goes"
+			},
+			{
+				"_id": "a5010602-0002-4000-8000-000000000002",
+				"correct": false,
+				"answer": "A new guided flow with slots for each mortgage variable"
+			},
+			{
+				"_id": "a5010602-0003-4000-8000-000000000003",
+				"correct": false,
+				"answer": "An additional document added to `docs/` for the `EnterpriseSearchPolicy`"
+			},
+			{
+				"_id": "a5010602-0004-4000-8000-000000000004",
+				"correct": false,
+				"answer": "Extend the existing transfer flow with extra steps for mortgage questions"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT explain which dialogue management style to use",
+		"guidance": "This conversation has no predictable shape. The user might ask about rates, then affordability, then a follow-up you did not anticipate. A sub-agent is built for exactly this, since it is prompt-driven it can reason, call a tool, process the result, adapt, repeat.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

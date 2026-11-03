@@ -1,0 +1,11 @@
+{
+ "id": "2e3d950f-d250-d6ee-6a45-1d9641ef21cf",
+ "title": "Unit 5: Configuration Files",
+ "type": "section",
+ "order": [
+  "5-1-The-config-yml-File-d22f",
+  "5-2-The-credentials-yml-File-8647",
+  "5-3-The-endpoints-yml-File-47d9",
+  "Lab-5-1-Exploring-the-Configuration-Files-80d2"
+ ]
+}

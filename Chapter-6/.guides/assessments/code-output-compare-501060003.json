@@ -1,0 +1,66 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-501060003",
+	"source": {
+		"name": "Lab 4.1: Adding a Flow to Call a Sub-Agent",
+		"showName": true,
+		"instructions": "To pass, all checks must pass:\n\n- Check 1: `chapter6/data/basics/book_appointment.yml` exists.\n- Check 2: Flow id `book_appointment` is present.\n- Check 3: `call: branch_appointment_booking` is present.\n\nFull score: 10/10.",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level6_graders/lab_4.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level6_graders/lab_4.1_grader.py"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "",
+		"guidance": "Edit level6/data/basics/ask_banking_assistant.yml per the failed check.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 10,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

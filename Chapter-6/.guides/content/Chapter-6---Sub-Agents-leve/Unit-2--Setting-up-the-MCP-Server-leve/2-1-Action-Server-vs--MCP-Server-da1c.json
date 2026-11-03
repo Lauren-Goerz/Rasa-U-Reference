@@ -1,0 +1,19 @@
+{
+	"id": "da1ccc8d-d8ea-b438-037d-cc97d34203c1",
+	"title": "2.1 Action Server vs. MCP Server",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter6"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

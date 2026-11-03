@@ -1,0 +1,20 @@
+{
+	"id": "710d3031-b593-562e-83ff-359a2c7caa05",
+	"title": "Lab 4.1: Creating the Transfer Flow",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter4"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

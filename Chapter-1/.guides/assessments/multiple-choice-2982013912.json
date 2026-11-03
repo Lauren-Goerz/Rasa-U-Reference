@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2982013912",
+	"source": {
+		"name": "Chapter 1:5.3 - Endpoints.yml Understanding",
+		"showName": false,
+		"instructions": "**What is the purpose of the `endpoints.yml` file in a Rasa project? Select all that apply.**",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "68866643-dad9-1279-effc-65f556ab7ff3",
+				"correct": true,
+				"answer": "Define where Rasa can find custom actions"
+			},
+			{
+				"_id": "e2e498ba-1bfc-5347-97aa-d811e6695a78",
+				"correct": true,
+				"answer": "Configure LLM settings for response generation"
+			},
+			{
+				"_id": "dc04698d-a9f5-9dcf-76c9-a7c72e238649",
+				"correct": false,
+				"answer": "Specify training data for the NLU pipeline"
+			},
+			{
+				"_id": "84d86100-8b63-3ad7-4b26-1a0a9f3037b7",
+				"correct": false,
+				"answer": "Define conversation flows and dialogue management"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT understand the purpose and structure of the endpoints.yml file in a Rasa project",
+		"guidance": "The `endpoints.yml` file in Rasa serves two main purposes:\n\n1. It defines where Rasa can find custom actions through the `action_endpoint` or `actions_module` configuration\n2. It configures LLM settings for natural language generation through the `nlg` and `model_groups` sections\n\nThe file does **not** hold NLU training data or your flow definitions. In this course, flows live in YAML under **`chapter1/data/`** (and related folders), not in `endpoints.yml`. Classic NLU training examples, when used, live in separate data files—not in `endpoints.yml`. The `endpoints.yml` file is for action wiring and LLM/NLG configuration.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

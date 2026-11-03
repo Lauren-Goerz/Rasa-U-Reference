@@ -1,0 +1,88 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-401020001",
+	"source": {
+		"name": "Lab 2.1: Adding Multiple Slots in the Domain",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following must be true:\n\n• Check 1: `chapter4/domain/basics.yml` exists.\n• Check 2: Slots amount, recipient, account_from, and account (Chapter 3) are present.\n• Check 3: `utter_ask_amount`, `utter_ask_recipient`, and `utter_ask_account` each have a text message.\n• Check 4: `action_process_transfer` is listed under `actions:`.\n• Check 5: `action_bank_hours`, `action_holiday_hours`, and `action_check_balance_simple` are still listed under `actions:` (do not remove them when adding the transfer action).\n\nFull score: 12/12.",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level4_graders/lab_2.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"chapter4/domain/basics.yml",
+				"level4/domain/basics.yml",
+				".guides/secure/level4_graders/lab_2.1_grader.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter4/domain/basics.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "",
+		"guidance": "The grader prints Check 1–4 with PASSED or FAILED, then a score band. Fix any failed line in level4/domain/basics.yml.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 12,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 5: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

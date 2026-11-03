@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2446085116",
+	"source": {
+		"name": "Lab 5.2 - Testing Slot Collection: slot collection behavior",
+		"showName": false,
+		"instructions": "**When you first say \"Check my balance\" (slot empty), what should the agent do?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c9c25183-ec92-74b0-2ecc-b48c30368bae",
+				"correct": false,
+				"answer": "Reply with a balance immediately"
+			},
+			{
+				"_id": "6b4f54e5-746c-a2b4-5ca5-43ba195dfd3d",
+				"correct": false,
+				"answer": "Say \"What are your hours?\""
+			},
+			{
+				"_id": "3d8d7eac-8fd1-91e4-5bd0-2758838015e8",
+				"correct": false,
+				"answer": "Return an error"
+			},
+			{
+				"_id": "687848ab-c2f9-5811-b665-6ec174eb2998",
+				"correct": true,
+				"answer": "Ask for your account number, such as \"What is your account number?\""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify correct agent behavior when a required slot is empty",
+		"guidance": "The correct answer is: Ask for your account number, such as \"What is your account number?\"\n\nWhen the slot is empty, the `collect:` step prompts the user via `utter_ask_account` to gather the required information before proceeding with the balance check flow. The agent cannot provide a balance without an account number, and it won't trigger other unrelated flows or errors - it will systematically collect the missing required slot value.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

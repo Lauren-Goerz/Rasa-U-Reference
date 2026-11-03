@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2132752574",
+	"source": {
+		"name": "Chapter 3 1.2 Test Your Knowledge",
+		"showName": false,
+		"instructions": "**What is a slot?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "4b65f0ef-fc5c-1961-5d32-d5276d35758e",
+				"correct": false,
+				"answer": "A flow step that asks the user for information"
+			},
+			{
+				"_id": "8a7cc6ac-4a96-58d6-6212-f402975684e0",
+				"correct": true,
+				"answer": "A memory variable that stores information from the conversation"
+			},
+			{
+				"_id": "483a4355-5cb5-7878-4145-551105a6ed94",
+				"correct": false,
+				"answer": "A type of response the agent can say"
+			},
+			{
+				"_id": "14c5cb10-2958-5abc-81fc-f040a89a712e",
+				"correct": false,
+				"answer": "A Python function that runs during the conversation"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT define what a slot is in chat agent development",
+		"guidance": "The correct answer is:\n\n* A memory variable that stores information from the conversation\n\nA slot is the agent's memory: it stores information from the conversation. Flow steps are actions the agent takes, responses are what the agent says to users, and Python functions are code that executes, but slots specifically serve as memory storage for conversational data.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

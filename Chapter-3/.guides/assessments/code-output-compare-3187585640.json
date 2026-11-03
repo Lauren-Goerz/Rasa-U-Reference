@@ -1,0 +1,110 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-3187585640",
+	"source": {
+		"name": "Lab 2.1: Defining a Slot in the Domain",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following must be true:\n\n• Check 1: chapter3/domain/basics.yml exists.\n• Check 2: File is valid YAML with a top-level mapping.\n• Check 3: Top-level slots: section is present.\n• Check 4: account slot has type: text.\n• Check 5: utter_ask_account has at least one text message.\n• Check 6: action_check_balance_simple is listed under actions:.\n• Check 7: action_bank_hours is listed under actions:.\n• Check 8: action_holiday_hours is listed under actions:.\n\nFull score: 10/10.",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level3_graders/lab_2.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"chapter3/domain/basics.yml",
+				"level3/domain/basics.yml",
+				".guides/secure/level3_graders/lab_3.1_grader.py",
+				".guides/secure/level3_graders/lab_3.1_solution_reference.md"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter3/domain/basics.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "Fix any failed check in chapter3/domain/basics.yml. ",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 10,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 5: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 6: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 7: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 8: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

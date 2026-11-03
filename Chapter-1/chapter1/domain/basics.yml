@@ -1,0 +1,29 @@
+## Level 1: Just Responses
+#
+# This is the simplest possible domain file.
+# - Only responses (predefined agent messages)
+# - No slots (memory)
+# - No actions (custom code)
+
+version: "3.1"
+
+responses:
+  utter_greet:
+    - text: "Hi! I'm a banking assistant. How can I help you today?"
+      metadata:
+        rephrase: True
+
+  utter_help:
+    - text: |
+        I can help you with:
+        - Checking your balance
+        - Transferring money
+        - Bank hours
+        - Contact information
+      metadata:
+        rephrase: True
+
+  utter_contact:
+    - text: "You can reach us at support@bank.com or call 1-800-BANK-123."
+      metadata:
+        rephrase: False

@@ -1,0 +1,21 @@
+{
+	"id": "47d4bd02-002a-5f63-bdfa-8904782052d7",
+	"title": "Lab 5.1: Training Your Level 4 Agent",
+	"files": [
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter4"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

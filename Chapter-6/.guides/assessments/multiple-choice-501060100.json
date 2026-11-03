@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-501060100",
+	"source": {
+		"name": "Chapter 6: 6.1 Knowledge Check - exit criteria for financial_advisor",
+		"showName": false,
+		"instructions": "**What happens when the `financial_advisor` sub-agent calls `task_completed`?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a5010601-0001-4000-8000-000000000001",
+				"correct": true,
+				"answer": "The loop exits, the sub-agent sends a closing message to the user, and control returns to the main flow"
+			},
+			{
+				"_id": "a5010601-0002-4000-8000-000000000002",
+				"correct": false,
+				"answer": "The main agent terminates the entire conversation"
+			},
+			{
+				"_id": "a5010601-0003-4000-8000-000000000003",
+				"correct": false,
+				"answer": "The MCP server shuts down"
+			},
+			{
+				"_id": "a5010601-0004-4000-8000-000000000004",
+				"correct": false,
+				"answer": "The sub-agent restarts with a new session"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT Describe exit criteria for sub-agent",
+		"guidance": "**Rationale:** `task_completed` is the sub-agent's explicit completion signal. The loop exits, a natural closing message is sent in the same turn, and the main flow resumes at the next step after `call:`.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

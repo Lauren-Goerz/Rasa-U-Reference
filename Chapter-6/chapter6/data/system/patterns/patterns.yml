@@ -1,0 +1,20 @@
+flows:
+  pattern_completed:
+    description: A flow has been completed and there is nothing else to be done
+    steps:
+      - noop: true
+        next: END
+
+  pattern_session_start:
+    name: pattern session start
+    description: Start the conversation with a greeting
+    nlu_trigger:
+      - intent: session_start
+    steps:
+      - action: utter_greet
+
+  pattern_search:
+    name: pattern search
+    description: Answers knowledge questions using the enterprise search index.
+    steps:
+      - action: action_trigger_search

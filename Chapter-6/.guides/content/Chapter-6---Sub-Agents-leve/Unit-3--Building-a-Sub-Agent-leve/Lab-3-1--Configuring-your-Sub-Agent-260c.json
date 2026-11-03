@@ -1,0 +1,19 @@
+{
+	"id": "260c519d-d8ed-a6e5-6a7b-faed3af49296",
+	"title": "Lab 3.1: Configuring your Sub-Agent",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter6"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

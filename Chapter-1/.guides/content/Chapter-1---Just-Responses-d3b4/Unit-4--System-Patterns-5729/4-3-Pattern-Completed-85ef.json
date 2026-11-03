@@ -1,0 +1,20 @@
+{
+	"id": "85ef595e-688d-d858-767a-9ce95cea3a23",
+	"title": "4.3 Pattern Completed",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

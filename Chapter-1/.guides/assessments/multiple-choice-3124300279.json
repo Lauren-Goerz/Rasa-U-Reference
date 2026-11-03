@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3124300279",
+	"source": {
+		"name": "Chapter 1: Unit 3 — Effective flow descriptions (MCQ)",
+		"showName": false,
+		"instructions": "**What makes a flow description effective for LLM matching? (Select all that apply)**",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1558b503-f7b8-f790-1add-1719d6c1902c",
+				"correct": true,
+				"answer": "It's specific about what the flow does"
+			},
+			{
+				"_id": "bf7c9e8e-8e0a-1aeb-1cc8-4fa4871e7170",
+				"correct": true,
+				"answer": "It's action-oriented (uses verbs like \"tell\", \"explain\", \"provide\")"
+			},
+			{
+				"_id": "a5bf9528-5799-39bd-541d-af874274a1e4",
+				"correct": true,
+				"answer": "It includes context about when/why the flow triggers"
+			},
+			{
+				"_id": "fbfd31ce-988d-0d79-c881-64e275d79808",
+				"correct": false,
+				"answer": "It's vague enough to match many different user phrasings"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT identify characteristics of effective flow descriptions for LLM matching",
+		"guidance": "Effective flow descriptions for LLM matching should be specific about what the flow does, use action-oriented language (with verbs like \"tell\", \"explain\", \"provide\"), and include context about when or why the flow triggers. Being vague actually makes matching worse, not better, as it fails to clearly communicate the purpose and function of the flow to the LLM.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

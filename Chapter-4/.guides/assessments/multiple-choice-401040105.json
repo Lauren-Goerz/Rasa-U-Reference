@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-401040105",
+	"source": {
+		"name": "Chapter 4: 6.1 Knowledge Check - transfer_money flow order",
+		"showName": false,
+		"instructions": "**What is the correct order of steps in the transfer_money flow?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a0104015-0001-4000-8000-000000000001",
+				"correct": false,
+				"answer": "Action first, then collect steps"
+			},
+			{
+				"_id": "a0104015-0002-4000-8000-000000000002",
+				"correct": true,
+				"answer": "Collect amount, then recipient, then account, then action_process_transfer"
+			},
+			{
+				"_id": "a0104015-0003-4000-8000-000000000003",
+				"correct": false,
+				"answer": "Collect all three slots in any order in one step"
+			},
+			{
+				"_id": "a0104015-0004-4000-8000-000000000004",
+				"correct": false,
+				"answer": "action_process_transfer, then collect amount, recipient, account_from"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify transfer_money flow step order",
+		"guidance": "The flow collects amount, then recipient, then account, then runs `action_process_transfer`.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

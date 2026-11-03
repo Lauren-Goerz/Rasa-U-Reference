@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2664648673",
+	"source": {
+		"name": "Level 1: 8.1 Knowledge check - what is a flow",
+		"showName": false,
+		"instructions": "**What is a Flow?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "138c5e11-145c-31b7-24ce-27b54dad5c4f",
+				"correct": true,
+				"answer": "A guided conversational interaction with a clear sequence of steps"
+			},
+			{
+				"_id": "a0e9f951-47b6-3602-3b3a-7f0214459038",
+				"correct": false,
+				"answer": "A predefined agent message"
+			},
+			{
+				"_id": "985cab02-6754-95eb-120f-488767e8e1cc",
+				"correct": false,
+				"answer": "A Python function"
+			},
+			{
+				"_id": "e5ee56c4-6a20-aa50-fb5f-c95c8f13ad3b",
+				"correct": false,
+				"answer": "A configuration file"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT define what a Flow is in conversational AI systems",
+		"guidance": "The correct answer is \"A guided conversational interaction with a clear sequence of steps.\" A Flow defines how a conversation progresses between a user and an agent, including the logic needed to handle a specific scenario.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-401040106",
+	"source": {
+		"name": "Chapter 4: 6.1 Knowledge Check - reading multiple slots in action",
+		"showName": false,
+		"instructions": "**How does an action read multiple slots?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a0104016-0001-4000-8000-000000000001",
+				"correct": false,
+				"answer": "`tracker.get_slots([\"amount\", \"recipient\", \"account_from\"])`"
+			},
+			{
+				"_id": "a0104016-0002-4000-8000-000000000002",
+				"correct": true,
+				"answer": "`tracker.get_slot(\"amount\")`, `tracker.get_slot(\"recipient\")`, `tracker.get_slot(\"account\")`"
+			},
+			{
+				"_id": "a0104016-0003-4000-8000-000000000003",
+				"correct": false,
+				"answer": "`dispatcher.get_slot(\"amount\")` for each slot"
+			},
+			{
+				"_id": "a0104016-0004-4000-8000-000000000004",
+				"correct": false,
+				"answer": "Slots are read automatically from the flow"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify how to read multiple slots in an action",
+		"guidance": "You call `tracker.get_slot(\"slot_name\")` once per slot in the action's `run()` method.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

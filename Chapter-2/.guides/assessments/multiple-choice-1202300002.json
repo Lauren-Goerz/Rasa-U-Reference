@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1202300002",
+	"source": {
+		"name": "Chapter 2: 2.3 Test Your Knowledge - Sending Messages from an Action",
+		"showName": false,
+		"instructions": "**How does a custom action send a text message to the user?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f6a7b8c9-d0e1-2345-f012-456789012345",
+				"correct": false,
+				"answer": "`return \"Your message here\"`"
+			},
+			{
+				"_id": "f6a7b8c9-d0e1-2345-f012-456789012346",
+				"correct": true,
+				"answer": "`dispatcher.utter_message(text=\"Your message here\")`"
+			},
+			{
+				"_id": "f6a7b8c9-d0e1-2345-f012-456789012347",
+				"correct": false,
+				"answer": "`tracker.send_message(\"Your message here\")`"
+			},
+			{
+				"_id": "f6a7b8c9-d0e1-2345-f012-456789012348",
+				"correct": false,
+				"answer": "`domain.utter_message(\"Your message here\")`"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT use the dispatcher to send messages from an action",
+		"guidance": "Inside `run()`, you send text to the user with `dispatcher.utter_message(text=\"Your message here\")`. The dispatcher (`CollectingDispatcher`) is the object that delivers messages from your action to the user. You can also use `dispatcher.utter_message(response=\"utter_xyz\")` to trigger a predefined response.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

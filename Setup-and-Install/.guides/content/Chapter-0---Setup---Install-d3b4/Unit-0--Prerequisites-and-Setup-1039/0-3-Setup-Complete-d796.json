@@ -1,0 +1,17 @@
+{
+	"id": "d796a9c9-4297-433a-ae1e-4103dfd3fba8",
+	"title": "0.3 Setup Complete",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1202300003",
+	"source": {
+		"name": "Chapter 2: 2.3 Test Your Knowledge - name() and Domain",
+		"showName": false,
+		"instructions": "**The string returned by a custom action's name() method must:**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a7b8c9d0-e1f2-3456-0123-567890123456",
+				"correct": false,
+				"answer": "Match the class name (e.g. `ActionBankHours`)"
+			},
+			{
+				"_id": "a7b8c9d0-e1f2-3456-0123-567890123457",
+				"correct": true,
+				"answer": "Match exactly what is listed under actions: in `domain/basics.yml`"
+			},
+			{
+				"_id": "a7b8c9d0-e1f2-3456-0123-567890123458",
+				"correct": false,
+				"answer": "Be the same as the filename (e.g. `action_bank_hours.py`)"
+			},
+			{
+				"_id": "a7b8c9d0-e1f2-3456-0123-567890123459",
+				"correct": false,
+				"answer": "Be unique only within the `actions/` folder; domain can list anything"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT explain why name() must match the domain",
+		"guidance": "The `name()` method returns the action identifier (e.g. `action_bank_hours`). This string must match exactly what you register in `domain/basics.yml` under the `actions:` list. \n\nRasa uses this name to find and invoke your action when a flow step references it. If they don't match, Rasa won't find your action.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4071825857",
+	"source": {
+		"name": "Level 1: 8.1 - Knowledge Check - purpose of flow descriptions",
+		"showName": false,
+		"instructions": "**What is the purpose of flow descriptions?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "2c3c8609-1b71-8423-c3b4-358aee1eb618",
+				"correct": false,
+				"answer": "Comments for developers"
+			},
+			{
+				"_id": "41ac8983-8194-0a76-18ef-3f0dbdc09caa",
+				"correct": true,
+				"answer": "The LLM uses them to match user messages to flows"
+			},
+			{
+				"_id": "572151b1-88b0-3dfb-6a37-96252bb8e280",
+				"correct": false,
+				"answer": "Required for YAML"
+			},
+			{
+				"_id": "9f7f492c-08a3-5313-60de-8b586337d70a",
+				"correct": false,
+				"answer": "Displayed to users"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify the purpose of flow descriptions",
+		"guidance": "The correct answer is: The LLM uses them to match user messages to flows. Flow descriptions serve as a guide for the Large Language Model (LLM) to understand which flow should be triggered based on the user's input message. They are not just comments for developers, not required by YAML syntax, and are not displayed directly to users.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

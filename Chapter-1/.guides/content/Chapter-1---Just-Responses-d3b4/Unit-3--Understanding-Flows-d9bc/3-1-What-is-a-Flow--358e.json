@@ -1,0 +1,25 @@
+{
+	"id": "358e5bf7-0743-369a-8740-a7bf6779177d",
+	"title": "3.1 What is a Flow?",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "chapter1/data/basics/greet.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Define a flow, locate flow YAML under data/basics, and recognize when guided flows fit scripted business logic."
+}

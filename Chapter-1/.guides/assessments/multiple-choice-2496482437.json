@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2496482437",
+	"source": {
+		"name": "Chapter 1: 5.1 - Config File Purpose",
+		"showName": false,
+		"instructions": "**What is the primary purpose of the `config.yml` file in a Rasa agent project?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "145b283b-8a8e-3f90-8542-32cc44e8a13e",
+				"correct": false,
+				"answer": "To define the user utterances the agent can understand"
+			},
+			{
+				"_id": "c785e095-062e-162c-ba2c-a8a6872198ae",
+				"correct": false,
+				"answer": "To store the conversation flows and agent responses"
+			},
+			{
+				"_id": "acc83b18-0e70-8579-646d-43cf799fa608",
+				"correct": false,
+				"answer": "To configure deployment settings for production"
+			},
+			{
+				"_id": "d141e240-f166-e54c-774d-93a3dd2c7c60",
+				"correct": true,
+				"answer": "To define how your Rasa agent processes user messages by specifying which components, policies, and language settings your agent will use."
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT identify the purpose and components of the config.yml file in Rasa",
+		"guidance": "The `config.yml` file defines how your Rasa agent processes user messages by specifying which components (e.g. pipeline), policies, and language settings the agent will use. As explained in the topic, it's like a blueprint for the agent's architecture. The other options refer to different files: user utterances and intents would be in training data files, conversation flows are in flow YAML under `data/`, and deployment settings would be in separate configuration files.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

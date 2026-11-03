@@ -1,0 +1,19 @@
+{
+	"title": "Minimal_Banking_Agent",
+	"theme": "light",
+	"scripts": [],
+	"customCSSUrl": ".guides/styles.css",
+	"suppressPageNumbering": true,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Chapter-6---Sub-Agents-leve"
+	],
+	"content": ""
+}

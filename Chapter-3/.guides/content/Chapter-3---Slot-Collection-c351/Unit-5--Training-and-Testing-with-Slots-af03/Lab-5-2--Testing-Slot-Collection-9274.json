@@ -1,0 +1,21 @@
+{
+	"id": "9274b748-87e1-53af-81c4-92de9907ec25",
+	"title": "Lab 5.2: Testing Slot Collection",
+	"files": [
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Run Inspector tests for collection and persistence; complete Check Your Knowledge."
+}

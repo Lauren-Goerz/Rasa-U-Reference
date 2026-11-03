@@ -1,0 +1,20 @@
+{
+	"id": "f68f552b-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "Lab 6.2 Testing your Custom Actions",
+	"files": [
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

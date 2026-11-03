@@ -1,0 +1,73 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1235165472",
+	"source": {
+		"name": "Lab 4.1: Creating a Flow with Slot Collection",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following must be true:\n• Check 1: `chapter3/data/basics/check_balance.yml` exists.\n• Check 2: Valid YAML with flows: and at least one flow (name, steps).\n• Check 3: A step uses collect: account.\n• Check 4: A step uses `action: action_check_balance_simple`.\n\nFull score: 8/8.",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level3_graders/lab_4.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level3_graders/lab_5.1_grader.py"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "",
+		"guidance": "Fix any failed check in `check_balance.yml`. Full credit: 8/8.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 8,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+ "id": "d9bcc344-0331-8273-e113-777042fb7d61",
+ "title": "Unit 3: Understanding Flows",
+ "type": "section",
+ "order": [
+  "3-1-What-is-a-Flow--358e",
+  "Lab-3-1--Exploring-Existing-Flows-17b5",
+  "Lab-3-2--Creating-Your-First-Flow-c824",
+  "Lab-3-3--Multi-Step-Flow-3938",
+  "3-2-Flow-Descriptions-and-LLM-Understanding-f72a",
+  "Lab-3-4--Flow-Descriptions-and-LLM-Matching-5cc1",
+  "Lab-3-5--Complete-Your-Agent-for-Training-c4f0",
+  "3-3-Test-Your-Knowledge-26ac"
+ ]
+}

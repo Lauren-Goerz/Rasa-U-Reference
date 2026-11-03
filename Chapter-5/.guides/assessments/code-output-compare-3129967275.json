@@ -1,0 +1,71 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-3129967275",
+	"source": {
+		"name": "Lab 3.1: Override pattern_search",
+		"showName": true,
+		"instructions": "Add the search pattern adjustment to `chapter5/data/basics/pattern_search.yml` with the flow override shown above. \n\nClick **Check It** when done to checks that data/basics/pattern_search.yml exists and is correctly configured for enterprise search. ",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level5_graders/lab_3.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"level5/config.yml",
+				"level5/endpoints.yml",
+				"level5/data/system/patterns/patterns.yml",
+				"level4/config.yml"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "level5/config.yml"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "level5/endpoints.yml"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "level5/data/system/patterns/patterns.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 4,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

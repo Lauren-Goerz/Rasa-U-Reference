@@ -1,0 +1,80 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-501060001",
+	"source": {
+		"name": "Lab 3.1: Sub-Agent Config",
+		"showName": true,
+		"instructions": "To pass, all checks must pass:\n\n- Check 1: `chapter6/sub_agents/branch_appointment_booking/config.yml` exists.\n- Check 2: Config references `branch_appointment_booking` as the agent name.\n- Check 3: Protocol `RASA` is present.\n- Check 4: `model_group` is set to `openai-gpt-5-mini`.\n- Check 5: `connections.mcp_servers` name is `appointment_mcp`.\n\nFull score: 10/10.",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level6_graders/lab_3.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level6_graders/lab_2.1_grader.py"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "Edit sub-agent config.yml until all four checks pass.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 10,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 5: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

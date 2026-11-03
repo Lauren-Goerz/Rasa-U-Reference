@@ -1,0 +1,21 @@
+{
+	"id": "level5-page-Lab-2-0-Command-generator-prompt-L5c0",
+	"title": "Lab 2.1: Setting up the MCP Server",
+	"files": [
+		{
+			"path": "level6/endpoints.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter6"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

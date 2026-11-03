@@ -1,0 +1,20 @@
+{
+	"id": "f72a2671-588b-e6b9-172a-f55afe7f1bd5",
+	"title": "3.2 Flow Descriptions and LLM Understanding",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Explain how the LLM uses descriptions to match user messages and distinguish strong from weak wording."
+}

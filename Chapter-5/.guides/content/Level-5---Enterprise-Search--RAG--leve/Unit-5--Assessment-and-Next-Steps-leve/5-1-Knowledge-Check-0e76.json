@@ -1,0 +1,19 @@
+{
+	"id": "0e768bd8-2b7a-1dee-4437-8a35134bf6f6",
+	"title": "5.1 Knowledge Check",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter5"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

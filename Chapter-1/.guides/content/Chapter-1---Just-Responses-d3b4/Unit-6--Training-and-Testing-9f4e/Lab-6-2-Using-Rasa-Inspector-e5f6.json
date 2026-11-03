@@ -1,0 +1,21 @@
+{
+	"id": "e5f6d7ec-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "Lab 6.2: Using Rasa Inspector",
+	"files": [
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Start rasa inspect from level1, use the Rasa Inspect tab in Codio or localhost in a browser locally, and interpret chat, flow, and debug panels at a basic level."
+}

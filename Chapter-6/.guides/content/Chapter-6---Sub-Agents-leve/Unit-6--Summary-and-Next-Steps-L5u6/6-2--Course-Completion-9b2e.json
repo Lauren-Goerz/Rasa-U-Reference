@@ -1,0 +1,19 @@
+{
+	"id": "9b2eef75-60fb-ad25-002c-07ea933bfe13",
+	"title": "6.2: Course Completion",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter6"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

@@ -1,0 +1,25 @@
+{
+	"id": "a1b2d7ec-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "6.1 Training: What It Does and How to Run It",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

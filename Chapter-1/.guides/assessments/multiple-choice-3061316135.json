@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3061316135",
+	"source": {
+		"name": "Chapter 1: Lab 5.1 - Exploring the Configuration Files - Rasa Custom Actions",
+		"showName": false,
+		"instructions": "**Where would Rasa look for custom actions?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "670ef8be-cf37-d438-6896-872059c9b503",
+				"correct": true,
+				"answer": "The `actions/` folder (`actions_module: \"actions\"`)"
+			},
+			{
+				"_id": "b7e835a4-10b1-8bdb-c188-4696b4cacce8",
+				"correct": false,
+				"answer": "The `scripts/` folder (`scripts_module: \"scripts\"`)"
+			},
+			{
+				"_id": "c11c4385-f4bc-2970-e754-8e3902e28217",
+				"correct": false,
+				"answer": "The `custom/` folder (`custom_module: \"custom\"`)"
+			},
+			{
+				"_id": "16250e44-dff7-08cf-d399-788f51967a60",
+				"correct": false,
+				"answer": "The `endpoints.yml` file"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify where Rasa looks for custom actions",
+		"guidance": "Rasa looks for custom actions in the `actions/` folder, which is specified in the configuration as `actions_module: \"actions\"`. This is where you would define any custom action classes that extend Rasa's Action class.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

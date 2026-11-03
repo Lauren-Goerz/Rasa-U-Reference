@@ -1,0 +1,64 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-304200002",
+	"source": {
+		"name": "Lab 4.2: Modifying System Patterns (pattern_session_start)",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following checks must pass:\n\n• Check 1: `pattern_session_start` in `patterns.yml` has both `utter_greet` and `utter_contact` in steps.",
+		"command": "python3 /home/codio/workspace/.guides/secure/level1_graders/lab_4.2_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 15,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"level1/data/system/patterns/patterns.yml",
+				".guides/secure/level1_graders/lab_4.2_grader.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "level1/data/system/patterns/patterns.yml"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "In level1/data/system/patterns/patterns.yml add - action: utter_contact as a second step under pattern_session_start steps (after utter_greet).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 5,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "PASS",
+				"showFeedback": true,
+				"feedback": "pattern_session_start in patterns.yml has both utter_greet and utter_contact in steps."
+			}
+		]
+	}
+}

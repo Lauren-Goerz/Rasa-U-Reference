@@ -1,0 +1,65 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-18512700",
+	"source": {
+		"name": "Lab 2.0: Knowledge Base",
+		"showName": true,
+		"instructions": "To pass, all checks must pass:\n\nCheck 1: chapter5/docs/ folder exists.\nCheck 2: chapter5/docs/banking_products.txt exists and is non-empty.\nCheck 3: chapter5/docs/banking_policies.txt exists and is non-empty.",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level5_graders/lab_2.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "",
+		"guidance": "Check 1 fails if the docs/ folder was not created inside chapter5/. The folder must exist before the files can be added.\nCheck 2 fails if banking_products.txt is missing from chapter5/docs/ or was saved empty. Check the filename is spelled correctly, it is case-sensitive.\nCheck 3 fails if banking_policies.txt is missing from chapter5/docs/ or was saved empty. Check the filename is spelled correctly — it is case-sensitive.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 0,
+		"points": 4,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

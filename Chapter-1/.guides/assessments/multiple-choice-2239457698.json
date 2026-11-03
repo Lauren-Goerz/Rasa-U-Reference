@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2239457698",
+	"source": {
+		"name": "Chapter 1: Lab 5.1 - Exploring the Configuration Files - Agent Language",
+		"showName": false,
+		"instructions": "**What language is the agent configured for?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "c660178c-2633-8456-313b-c17d5fbea9eb",
+				"correct": false,
+				"answer": "Spanish"
+			},
+			{
+				"_id": "b25dff9b-c8aa-c1d0-23a7-9b52762293d1",
+				"correct": true,
+				"answer": "English"
+			},
+			{
+				"_id": "8daf5422-fd4d-4061-ffd0-7b5fb3c13c5c",
+				"correct": false,
+				"answer": "French"
+			},
+			{
+				"_id": "789ccdae-76f3-d04b-e030-5390ebd989ea",
+				"correct": false,
+				"answer": "German"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify the language configuration in a agent's configuration file",
+		"guidance": "The correct answer is English. In the configuration file, the language setting is specified as `language: en`, where 'en' is the language code for English.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

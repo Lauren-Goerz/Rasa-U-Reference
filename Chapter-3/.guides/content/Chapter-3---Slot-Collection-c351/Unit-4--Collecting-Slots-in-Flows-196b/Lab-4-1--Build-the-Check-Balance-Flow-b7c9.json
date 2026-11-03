@@ -1,0 +1,21 @@
+{
+	"id": "b7c9c8d0-42b8-5a03-8cce-e5aa877a8f8d",
+	"title": "Lab 4.1: Build the Check Balance Flow",
+	"files": [
+		{
+			"path": "",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Create the check_balance flow file with collect and action steps."
+}

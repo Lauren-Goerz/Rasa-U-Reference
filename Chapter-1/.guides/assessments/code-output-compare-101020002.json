@@ -1,0 +1,65 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-101020002",
+	"source": {
+		"name": "Lab 2.1: Creating Your First Response",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following checks must pass:\n\n• Check 1: `utter_goodbye` response is defined in `chapter1/domain/basics.yml` with text and metadata.",
+		"command": "python3 /home/codio/workspace/.guides/secure/level1_graders/lab_2.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 15,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"level1/domain/basics.yml",
+				".guides/secure/level1_graders/lab_2.2_grader.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "level1/domain/basics.yml"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "If the assessment fails, ensure `chapter1/domain/basics.yml` has utter_goodbye under responses: with `- text:` and `metadata: rephrase: True.`",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 10,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "PASS",
+				"showFeedback": true,
+				"feedback": "utter_goodbye response is defined in domain/basics.yml with text and metadata."
+			}
+		]
+	}
+}

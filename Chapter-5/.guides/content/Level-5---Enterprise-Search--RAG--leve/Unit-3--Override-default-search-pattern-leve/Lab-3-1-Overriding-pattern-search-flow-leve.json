@@ -1,0 +1,25 @@
+{
+	"id": "level5-page-3-1-Registering-Tools-L5d1",
+	"title": "Lab 3.1 Overriding pattern_search_flow",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "chapter5/data/system/patterns/patterns.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter5"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

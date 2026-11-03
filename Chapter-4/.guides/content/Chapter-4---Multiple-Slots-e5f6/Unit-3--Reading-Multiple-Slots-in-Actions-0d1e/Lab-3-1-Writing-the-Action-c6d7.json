@@ -1,0 +1,21 @@
+{
+	"id": "1cbd82ee-28d0-5143-9c5f-338b6bd62e8b",
+	"title": "Lab 3.1: Writing the Action That Uses Multiple Slots",
+	"files": [
+		{
+			"path": "chapter4/actions/action_check_balance_simple.py",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter4"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

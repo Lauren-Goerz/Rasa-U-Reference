@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-68669000",
+	"source": {
+		"name": "Chapter 2: 7.1 See it all together - utter_* vs action_*",
+		"showName": false,
+		"instructions": "**What's the difference between `utter_*` and `action_*`?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "50825acc-e3bd-2503-b039-910c33203729",
+				"correct": true,
+				"answer": "`utter_*` are responses (static text), `action_*` are actions (custom code)"
+			},
+			{
+				"_id": "4832a695-6663-2cbe-494f-2f5febfc2a42",
+				"correct": false,
+				"answer": "There's no difference"
+			},
+			{
+				"_id": "2d8576d4-41fd-f4de-cf6f-09318396935e",
+				"correct": false,
+				"answer": "`utter_*` are actions, `action_*` are responses"
+			},
+			{
+				"_id": "ef217a08-21a9-53cf-7eaa-aff3ccd336d3",
+				"correct": false,
+				"answer": "They're the same thing"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT contrast responses and custom actions",
+		"guidance": "`utter_*` entries are predefined messages in the domain. `action_*` names refer to Python classes in `actions/` that run your logic.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

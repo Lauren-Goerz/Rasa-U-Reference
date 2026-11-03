@@ -1,0 +1,85 @@
+{
+	"type": "fill-in-the-blanks",
+	"taskId": "fill-in-the-blanks-401030010",
+	"source": {
+		"name": "Lab 3.1: Complete action_process_transfer (multiple slots & placeholders)",
+		"showName": false,
+		"instructions": "**Fill in the blanks to complete the action file.** Copy the completed script into `chapter4/actions/action_process_transfer.py` and run the code assessment.",
+		"showValues": true,
+		"text": "Complete the action that reads the three transfer slots (`amount`, `recipient`, `account`), and otherwise sends a transfer confirmation:\n\n```python\nfrom typing import <<<Any, Dict, List, Text>>>\n\nfrom rasa_sdk import Action, Tracker\nfrom rasa_sdk.executor import CollectingDispatcher\n\n\nclass ActionProcessTransfer(<<<Action>>>):\n    \"\"\"A custom action that processes a money transfer using multiple slots.\"\"\"\n\n    def name(self) -> Text:\n        return \"<<<action_process_transfer>>>\"\n\n    def run(\n        self,\n        dispatcher: CollectingDispatcher,\n        tracker: Tracker,\n        domain: Dict[Text, Any],\n    ) -> <<<List[Dict[Text, Any]]>>>:\n        amount = <<<tracker.get_slot(\"amount\") or \"\">>>\n        recipient = <<<(tracker.get_slot(\"recipient\") or \"\")>>>\n        account = <<<tracker.get_slot(\"account\") or \"\">>>\n\n        dispatcher.utter_message(text=<<<f\"Transfer of ${amount} from account {account} to {recipient} has been processed successfully.\">>>)\n        return <<<[]>>>\n```",
+		"distractors": "Any, Dict, Text\nList[Dict[Any, Any]]\nActionExecutor\namount in placeholder_values\nutter_ask_recipient\n{}\nreturn None",
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [
+				"chapter4/domain/basics.yml",
+				"chapter4/actions/action_check_balance_simple.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter4/domain/basics.yml"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter4/actions/action_check_balance_simple.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "Here is the completed script (copy into `chapter4/actions/action_process_transfer.py`):\n\n```python\nfrom typing import Any, Dict, List, Text\n\nfrom rasa_sdk import Action, Tracker\nfrom rasa_sdk.executor import CollectingDispatcher\n\n\nclass ActionProcessTransfer(Action):\n    \"\"\"A custom action that processes a money transfer using multiple slots.\"\"\"\n\n    def name(self) -> Text:\n        return \"action_process_transfer\"\n\n    def run(\n        self,\n        dispatcher: CollectingDispatcher,\n        tracker: Tracker,\n        domain: Dict[Text, Any],\n    ) -> List[Dict[Text, Any]]:\n        amount = tracker.get_slot(\"amount\") or \"\"\n        recipient = (tracker.get_slot(\"recipient\") or \"\")\n        account = tracker.get_slot(\"account\") or \"\"\n\n        dispatcher.utter_message(text=f\"Transfer of ${amount} from account {account} to {recipient} has been processed successfully.\")\n        return []\n```\n\nAfter you paste and save the file, run the **Code Test** assessment.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"tokens": {
+			"blank": [
+				"Any, Dict, List, Text",
+				"Action",
+				"action_process_transfer",
+				"List[Dict[Text, Any]]",
+				"tracker.get_slot(\"amount\") or \"\"",
+				"(tracker.get_slot(\"recipient\") or \"\")",
+				"tracker.get_slot(\"account\") or \"\"",
+				"f\"Transfer of ${amount} from account {account} to {recipient} has been processed successfully.\"",
+				"[]"
+			],
+			"text": [
+				"Complete the action that reads the three transfer slots (`amount`, `recipient`, `account`), and otherwise sends a transfer confirmation:\n\n```python\nfrom typing import ",
+				0,
+				"\n\nfrom rasa_sdk import Action, Tracker\nfrom rasa_sdk.executor import CollectingDispatcher\n\n\nclass ActionProcessTransfer(",
+				0,
+				"):\n    \"\"\"A custom action that processes a money transfer using multiple slots.\"\"\"\n\n    def name(self) -> Text:\n        return \"",
+				0,
+				"\"\n\n    def run(\n        self,\n        dispatcher: CollectingDispatcher,\n        tracker: Tracker,\n        domain: Dict[Text, Any],\n    ) -> ",
+				0,
+				":\n        amount = ",
+				0,
+				"\n        recipient = ",
+				0,
+				"\n        account = ",
+				0,
+				"\n\n        dispatcher.utter_message(text=",
+				0,
+				")\n        return ",
+				0,
+				"\n```"
+			],
+			"regexPositions": []
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": "level5-page-Lab-4-1-transfer-money-tools-Flow-and-Action-L5e2",
+	"title": "Lab 4.2: Testing Search",
+	"files": [
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter5"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

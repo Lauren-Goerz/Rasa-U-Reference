@@ -1,0 +1,13 @@
+recipe: default.v1
+language: en
+assistant_id: chapter1-agent
+
+pipeline:
+  - name: SearchReadyLLMCommandGenerator
+    llm:
+      model_group: rasa_command_generation_model
+    flow_retrieval:
+      active: false
+
+policies:
+  - name: FlowPolicy

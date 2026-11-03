@@ -1,0 +1,95 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-2266471391",
+	"source": {
+		"name": "Lab 3.1: Create Your Own Action (Code Test)",
+		"showName": true,
+		"instructions": "Complete the **Fill in the blanks** exercise first, then paste your completed script into **`chapter2/actions/action_holiday_hours.py`** and save.\n\nTo pass this assessment, all of the following checks must pass:\n\n• Check 1: actions/action_holiday_hours.py exists.\n• Check 2: File has correct imports (Action from rasa_sdk, CollectingDispatcher from rasa_sdk.executor).\n• Check 3: datetime is used for date-based logic (e.g. holiday message).\n• Check 4: Class ActionHolidayHours(Action) is defined.\n• Check 5: name() returns 'action_holiday_hours'.\n• Check 6: run() calls dispatcher.utter_message() and returns [].",
+		"command": "bash /home/codio/workspace/.guides/secure/level2_graders/lab_3.1_grader.sh",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"chapter2/actions/action_bank_hours.py",
+				"level2/actions/action_bank_hours.py",
+				".guides/secure/level2_graders/lab_3.2_grader.sh"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter2/actions/action_bank_hours.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "Pass the **Fill in the blanks** assessment first, then save your pasted file under **`chapter2/actions/`**. The grader checks that `action_holiday_hours.py` exists, has the correct imports (including datetime), class `ActionHolidayHours(Action)`, `name()` returning `action_holiday_hours`, and `run()` calling `dispatcher.utter_message()` and returning `[]`.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 8,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 5: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 6: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

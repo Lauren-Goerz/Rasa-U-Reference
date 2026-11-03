@@ -1,0 +1,21 @@
+{
+	"id": "21a8cf60-bf0a-5f52-8546-bb8d55ff1a8e",
+	"title": "Lab 3.1: Adding Actions with Slots",
+	"files": [
+		{
+			"path": "",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Explore and extend actions that read slots from the tracker."
+}

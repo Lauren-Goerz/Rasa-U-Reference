@@ -1,0 +1,20 @@
+{
+	"id": "8f20d219-06b6-514f-bc69-c047e6920df5",
+	"title": "1.3 How to Collect Information in Rasa",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Explain how Rasa stores and retrieves slot values during a conversation."
+}

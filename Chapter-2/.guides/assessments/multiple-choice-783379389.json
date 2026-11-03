@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-783379389",
+	"source": {
+		"name": "Chapter 2: 7.1See it all together - Where Actions Are Defined",
+		"showName": false,
+		"instructions": "**Where are custom actions defined?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a3c3b026-551e-3626-bf04-513d72efadf6",
+				"correct": false,
+				"answer": "In `domain/basics.yml` under `responses:`"
+			},
+			{
+				"_id": "431d281f-ffb1-965a-d38c-81074f20db62",
+				"correct": false,
+				"answer": "In `config.yml`"
+			},
+			{
+				"_id": "3dba6c9b-5a15-3cc0-9158-834cb49af74a",
+				"correct": false,
+				"answer": "In flow files in `data/basics/`"
+			},
+			{
+				"_id": "486027d3-7419-74db-2335-742773633228",
+				"correct": true,
+				"answer": "In Python files in the `actions/` folder"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT locate where custom actions live in the project",
+		"guidance": "Actions are Python classes in the `actions/` folder. You also register them under `actions:` in `domain/basics.yml`, but the implementation is in Python.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

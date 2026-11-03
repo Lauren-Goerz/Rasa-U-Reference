@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-401040102",
+	"source": {
+		"name": "Chapter 4: 1.5 Test Your Knowledge - utter_ask naming",
+		"showName": false,
+		"instructions": "**What naming convention do we use for the response that asks for a slot value?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a0104012-0001-4000-8000-000000000001",
+				"correct": false,
+				"answer": "`response_<slot_name>`"
+			},
+			{
+				"_id": "a0104012-0002-4000-8000-000000000002",
+				"correct": true,
+				"answer": "`utter_ask_<slot_name>`"
+			},
+			{
+				"_id": "a0104012-0003-4000-8000-000000000003",
+				"correct": false,
+				"answer": "`ask_<slot_name>`"
+			},
+			{
+				"_id": "a0104012-0004-4000-8000-000000000004",
+				"correct": false,
+				"answer": "`slot_<slot_name>`"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify utter_ask naming convention",
+		"guidance": "We use `utter_ask_<slot_name>` (e.g. `utter_ask_amount`, `utter_ask_recipient`).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

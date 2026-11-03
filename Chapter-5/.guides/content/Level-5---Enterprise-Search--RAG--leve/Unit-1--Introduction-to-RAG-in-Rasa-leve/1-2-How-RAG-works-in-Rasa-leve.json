@@ -1,0 +1,15 @@
+{
+	"id": "level5-page-0-2-L5a2",
+	"title": "1.2 How RAG works in Rasa",
+	"files": [],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter5"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

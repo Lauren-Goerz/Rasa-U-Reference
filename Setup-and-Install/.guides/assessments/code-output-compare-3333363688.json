@@ -1,0 +1,72 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-3333363688",
+	"source": {
+		"name": "Lab 0.1 Virtual Environment and Rasa Install",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following checks must pass:\n\n• Check 1: Virtual environment (.venv) is in the project root.\n• Check 2: **`rasa-pro 3.17.0`** is installed in the virtual environment (matches the course pin).\n• Check 3: Project-root `.env` contains a valid `RASA_LICENSE=...` (or the variable is set in the environment).",
+		"command": "python3 /home/codio/workspace/.guides/secure/level1_graders/lab_0.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level1_graders/lab_0.1_grader.py"
+			],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 7,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Step 1: PASSED",
+				"showFeedback": true,
+				"feedback": "Virtual environment (.venv) found in project root."
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Step 2: PASSED",
+				"showFeedback": true,
+				"feedback": "rasa-pro 3.17.0 is installed in the virtual environment."
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Step 3: PASSED",
+				"showFeedback": true,
+				"feedback": "RASA_LICENSE is set in project-root .env or the environment."
+			}
+		]
+	}
+}

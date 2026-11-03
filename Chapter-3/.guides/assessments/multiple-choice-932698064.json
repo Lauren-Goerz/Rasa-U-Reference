@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-932698064",
+	"source": {
+		"name": "Chapter 3: 3.1 Knowledge Check: reading slots in actions",
+		"showName": false,
+		"instructions": "**How do you read a slot in an action?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "be822ebd-cfa9-05a9-99e6-be9f438f2787",
+				"correct": false,
+				"answer": "`slot = domain.get_slot(\"account\")`"
+			},
+			{
+				"_id": "1c4ff9fc-c285-99d1-e5a5-afb7ad00a947",
+				"correct": false,
+				"answer": "`account = dispatcher.get_slot(\"account\")`"
+			},
+			{
+				"_id": "628bff14-66a3-e85d-6368-30fb20beb42a",
+				"correct": false,
+				"answer": "`account = flow.collect(\"account\")`"
+			},
+			{
+				"_id": "07583a39-ec48-6e14-05c1-3971b2a147f7",
+				"correct": true,
+				"answer": "`account = tracker.get_slot(\"account\")`"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify how to read a slot in an action",
+		"guidance": "The correct answer is `account = tracker.get_slot(\"account\")`. In an action, you read a slot from the `tracker` object using the `get_slot()` method. \n\nThe `domain` is used for configuration, the `dispatcher` is used for sending responses to the user, and `flow.collect()` is used to collect slot values during conversation flow, not to read existing slot values in actions.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

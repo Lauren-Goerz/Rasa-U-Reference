@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-351504070",
+	"source": {
+		"name": "Chapter 1: Unit 3 — Flow descriptions (MCQ)",
+		"showName": false,
+		"instructions": "**Which of these is the BEST flow description for a flow that provides bank hours?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ed279f8f-f722-24ea-e582-c1f2604be2ed",
+				"correct": false,
+				"answer": "\"Help user\""
+			},
+			{
+				"_id": "51825b6f-e7f7-457c-c04a-cf6acf0f1844",
+				"correct": false,
+				"answer": "\"Respond when user says 'hours'\""
+			},
+			{
+				"_id": "89210c92-2cef-bb02-6360-de73a859a124",
+				"correct": false,
+				"answer": "\"Hours\""
+			},
+			{
+				"_id": "f0df11b1-85cb-c980-6ef8-2eeb235eb872",
+				"correct": true,
+				"answer": "\"Tell the user when the bank is open and what the operating hours are\""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT identify effective flow descriptions",
+		"guidance": "Good descriptions are clear, specific, and action-oriented. They explain what the flow does, not how the user asks for it. \"Tell the user when the bank is open and what the operating hours are\" is the best description because it clearly states the action and purpose of the flow.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

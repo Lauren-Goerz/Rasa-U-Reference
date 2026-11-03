@@ -1,0 +1,68 @@
+{
+	"type": "fill-in-the-blanks",
+	"taskId": "fill-in-the-blanks-303400101",
+	"source": {
+		"name": "Chapter 1: 3.4 hours_flow_completion",
+		"showName": false,
+		"instructions": "**Fill in the blanks to complete the hours flow YAML.** Use the exact structure and naming conventions for Rasa flows.",
+		"showValues": true,
+		"text": "Complete the YAML structure for the hours flow:\n\n```yaml\n<<<flows>>>:\n  <<<hours>>>:\n    <<<name>>>: bank hours\n    <<<description>>>: Provide bank opening hours and schedule.\n    <<<steps>>>:\n      - <<<action>>>: utter_hours\n```",
+		"distractors": "flow\ntitle\nstep\nresponse\nactions\nutter",
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "",
+		"guidance": "The correct answers are:\n\n* **flows** - Top-level key that contains all flow definitions\n* **hours** - Unique identifier for this specific flow\n* **name** - Field that provides a human-readable name for the flow\n* **description** - Field that helps the LLM match user intents to this flow\n* **steps** - Field that contains the sequence of actions to execute\n* **action** - Key that specifies the type of step to perform\n\nThis structure follows Rasa's YAML format for defining conversational flows.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"tokens": {
+			"blank": [
+				"flows",
+				"hours",
+				"name",
+				"description",
+				"steps",
+				"action"
+			],
+			"text": [
+				"Complete the YAML structure for the hours flow:\n\n```yaml\n",
+				0,
+				":\n  ",
+				0,
+				":\n    ",
+				0,
+				": bank hours\n    ",
+				0,
+				": Provide bank opening hours and schedule.\n    ",
+				0,
+				":\n      - ",
+				0,
+				": utter_hours\n```"
+			],
+			"regexPositions": []
+		}
+	}
+}

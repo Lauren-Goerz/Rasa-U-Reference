@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2697467428",
+	"source": {
+		"name": "Lab 5.2 - Testing Slot Collection: verify chapter 2 flows",
+		"showName": false,
+		"instructions": "**How do you verify that Chapter 2 flows still work?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "3880c4fe-829a-bd28-19ad-6ef642df1138",
+				"correct": false,
+				"answer": "Say \"Check my balance\" and provide an account number"
+			},
+			{
+				"_id": "d3c30253-b3ba-95b6-6df6-d9500f0b8cb0",
+				"correct": false,
+				"answer": "Restart Inspector"
+			},
+			{
+				"_id": "1ca3eace-09b6-b412-6886-9ff8ae7a1bda",
+				"correct": true,
+				"answer": "Say \"What are your hours?\" and get a response about bank hours"
+			},
+			{
+				"_id": "70942aeb-2cfb-71e6-47cb-c7d7b3d0748d",
+				"correct": false,
+				"answer": "Check the debug panel only"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT verify that Level 2 flows still work after implementing Level 3 functionality",
+		"guidance": "The correct answer is: Say \"What are your hours?\" and get a response about bank hours. This phrase triggers the Chapter 2 `hours` flow, and if it works correctly by providing bank hours information, it confirms that Chapter 2 functionality is still intact after implementing Chapter 3 features. The other options either test Chapter 3 functionality (checking balance), don't actually test functionality (restarting Inspector), or only provide debugging information without testing the actual flow (debug panel).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

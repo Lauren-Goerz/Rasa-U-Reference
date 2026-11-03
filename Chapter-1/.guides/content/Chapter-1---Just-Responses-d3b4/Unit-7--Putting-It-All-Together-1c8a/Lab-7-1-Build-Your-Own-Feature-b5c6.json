@@ -1,0 +1,21 @@
+{
+	"id": "b5c6d7ec-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "Lab 7.1: Build Your Own Feature",
+	"files": [
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

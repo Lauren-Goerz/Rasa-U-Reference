@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1202300004",
+	"source": {
+		"name": "Chapter 2: 2.3 Test Your Knowledge - Why action_bank_hours Uses datetime",
+		"showName": false,
+		"instructions": "**Why does `action_bank_hours` use Python's datetime instead of a simple utter response?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b8c9d0e1-f2a3-4567-1234-678901234567",
+				"correct": false,
+				"answer": "datetime is required by Rasa for all actions"
+			},
+			{
+				"_id": "b8c9d0e1-f2a3-4567-1234-678901234568",
+				"correct": false,
+				"answer": "To make the action run faster"
+			},
+			{
+				"_id": "b8c9d0e1-f2a3-4567-1234-678901234569",
+				"correct": true,
+				"answer": "The message must change based on the current day (e.g. Saturday vs Sunday vs weekday)"
+			},
+			{
+				"_id": "b8c9d0e1-f2a3-4567-1234-678901234570",
+				"correct": false,
+				"answer": "To register the action in the domain"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT explain when dynamic logic requires an action",
+		"guidance": "`action_bank_hours` returns a different message depending on the current day (e.g. 'Today is Sunday—we're closed' vs 'Today is Saturday—we're open 10am-2pm' vs weekday message). That requires Python logic and `datetime`; a simple `utter_*` response cannot change based on when the user asks, so an action is used.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

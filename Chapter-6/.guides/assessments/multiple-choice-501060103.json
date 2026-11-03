@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-501060103",
+	"source": {
+		"name": "Chapter 6: 6.1 Knowledge Check - action server vs. mcp server",
+		"showName": false,
+		"instructions": "**What is the key difference between the action server and the MCP server?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a5010601-0013-4000-8000-000000000013",
+				"correct": false,
+				"answer": "The MCP server replaces the action server in Level 6"
+			},
+			{
+				"_id": "a5010601-0014-4000-8000-000000000014",
+				"correct": false,
+				"answer": "The MCP server runs Rasa flows; the action server handles sub-agents\n"
+			},
+			{
+				"_id": "a5010601-0015-4000-8000-000000000015",
+				"correct": true,
+				"answer": "The action server is called by the flow at a defined step; the MCP server exposes tools the sub-agent's LLM calls during reasoning "
+			},
+			{
+				"_id": "a5010601-0016-4000-8000-000000000016",
+				"correct": false,
+				"answer": "Both serve the same purpose but use different ports"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT describe main difference between custom action server and the mcp server",
+		"guidance": "The flow controls when the action server runs in the order defined, the LLM controls when MCP tools run, multiple calls, in any order, until the task is done. ",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

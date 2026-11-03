@@ -1,0 +1,20 @@
+{
+	"id": "f83c72c7-2916-586f-8e1c-c807e41d1123",
+	"title": "1.4 Slot Types",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Describe collect-step behavior and how it connects to utter_ask_* responses and actions."
+}

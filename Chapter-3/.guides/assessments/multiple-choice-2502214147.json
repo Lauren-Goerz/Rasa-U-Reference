@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2502214147",
+	"source": {
+		"name": "Chapter 3: 8.1 Knowledge Check - collect step functionality",
+		"showName": false,
+		"instructions": "**What does a `collect:` step in a flow do?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "c30a219a-51eb-87f1-af6c-4a4c6116a402",
+				"correct": false,
+				"answer": "Sends the slot value to an action"
+			},
+			{
+				"_id": "fdea6463-d611-ea19-1a58-454b2c17c31a",
+				"correct": true,
+				"answer": "Tells Rasa to get the slot value from the user, asking with the `utter_ask_*` response when the slot is empty, before continuing"
+			},
+			{
+				"_id": "673c69cd-51bb-9c99-4614-8f193a84a2ff",
+				"correct": false,
+				"answer": "Deletes the slot value"
+			},
+			{
+				"_id": "9b0d3689-cbc2-aea6-c41b-be48a2accb92",
+				"correct": false,
+				"answer": "Reads the slot value from the tracker"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify the purpose of a collect step in a Rasa flow",
+		"guidance": "The correct answer is: Tells Rasa to get the slot value from the user, asking with the `utter_ask_*` response when the slot is empty, before continuing. The `collect:` step is specifically designed to gather information from the user and store it in a slot. If the slot is already filled, the flow continues; if empty, Rasa will prompt the user using the corresponding `utter_ask_*` response template and wait for their input before proceeding.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

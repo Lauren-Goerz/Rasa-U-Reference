@@ -1,0 +1,20 @@
+{
+	"id": "bd062103-7917-073c-1b6c-6ae767e19af1",
+	"title": "4.2 Session Start Pattern",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

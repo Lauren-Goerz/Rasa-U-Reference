@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3470854410",
+	"source": {
+		"name": "5 5.1 Knowledge Check",
+		"showName": false,
+		"instructions": "This course uses two separate model groups for Enterprise Search: `openai-gpt-5-mini` and `openai-embeddings`. Why are two model groups needed instead of one?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d302fc49-1b95-f868-bf8b-f95b7649e834",
+				"correct": false,
+				"answer": "Rasa requires at least two model groups whenever `EnterpriseSearchPolicy` is enabled"
+			},
+			{
+				"_id": "63f156b1-0916-4f10-aca9-57d46f57a1b1",
+				"correct": true,
+				"answer": "Embedding documents and generating answers are different tasks that need different model types"
+			},
+			{
+				"_id": "b4d2484b-b9e7-01c4-47aa-a5e940e7758e",
+				"correct": false,
+				"answer": "OpenAI requires separate model groups for chat and embeddings models"
+			},
+			{
+				"_id": "2c2080f4-51c7-27df-1b9f-49562ed5d08d",
+				"correct": false,
+				"answer": "The `openai-embeddings` group is only used during training and can be removed afterwards"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

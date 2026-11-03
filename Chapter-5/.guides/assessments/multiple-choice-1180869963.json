@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1180869963",
+	"source": {
+		"name": "Level 5: 1.3 Test Your Knowledge - Search Command Generator Commands",
+		"showName": false,
+		"instructions": "Why does Rasa recommend Milvus or Qdrant vector stores for production instead of FAISS?\n\n",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "1bbedff2-0a45-a107-43a2-f2ba0a8f52e1",
+				"correct": false,
+				"answer": "FAISS does not support `.txt` files"
+			},
+			{
+				"_id": "c174f228-fda7-b4a7-9db4-22fb9cfb8f7a",
+				"correct": false,
+				"answer": "FAISS requires an external API key to run\n"
+			},
+			{
+				"_id": "98b54a8b-9f78-595a-ca84-4a347f5a16b3",
+				"correct": true,
+				"answer": "FAISS is an in-memory local index intended for development, not production workloads"
+			},
+			{
+				"_id": "f6369e5b-f070-61ad-eae5-035c9ab02870",
+				"correct": false,
+				"answer": "FAISS only supports Extractive search, not Generative search"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT know search command",
+		"guidance": "FAISS runs as a local in-memory index, which makes it simple to use during development with no external service needed. For production, Rasa recommends Milvus or Qdrant vector databases, which are designed for production-scale workloads.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

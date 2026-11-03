@@ -1,0 +1,21 @@
+{
+	"id": "f25f06d3-d2cb-c474-6a8c-8f2be8916e0b",
+	"title": "Lab 4.2: Modifying System Patterns",
+	"files": [
+		{
+			"path": "chapter1/data/system/patterns/patterns.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

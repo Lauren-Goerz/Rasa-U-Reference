@@ -1,0 +1,72 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1597644299",
+	"source": {
+		"name": "Lab 6.2: Training and Testing",
+		"showName": true,
+		"instructions": "This assessment only checks that you ran Rasa Inspector with a log file as in the lab:\n\n• Check 1: The file chapter2/logs/logs.out exists (create the logs folder first, then run inspect with --log-file logs/logs.out).\n• Check 2: That file contains evidence that Inspector / the server started.\n\nIt does not re-check your domain or training (those are covered in Lab 4.1 and Lab 6.1).",
+		"command": "bash /home/codio/workspace/.guides/secure/level2_graders/lab_6.2_grader.sh",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level2_graders/lab_6.2_grader.sh"
+			],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "From the chapter2 folder (venv active), run mkdir -p logs, then python -m rasa inspect --debug --log-file logs/logs.out. ",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 11,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Successfully passed!",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1592311807",
+	"source": {
+		"name": "Level 1:8.1 - rephrase functionality",
+		"showName": false,
+		"instructions": "**What does `rephrase: True` do?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "14f73483-b49a-d419-b3e0-799b6d3a8959",
+				"correct": true,
+				"answer": "Allows the LLM to vary the wording of responses"
+			},
+			{
+				"_id": "ff693cef-be35-cf2b-4632-59a786a3062b",
+				"correct": false,
+				"answer": "Makes the agent remember"
+			},
+			{
+				"_id": "c4576efd-87f7-36be-c81b-75706066cbd9",
+				"correct": false,
+				"answer": "Forces exact text"
+			},
+			{
+				"_id": "ddf82944-eafd-d9e3-49da-87860dd03221",
+				"correct": false,
+				"answer": "Enables custom code"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify the purpose of the rephrase parameter",
+		"guidance": "The correct answer is 'Allows the LLM to vary the wording of responses'. When `rephrase: True` is set, it enables the LLM to modify and vary the wording of responses rather than providing exactly the same text each time. This makes conversations feel more natural and less repetitive.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

@@ -1,0 +1,6 @@
+flows:
+  hours:
+    name: bank hours
+    description: Tell the user when the bank is open.
+    steps:
+      - action: action_bank_hours

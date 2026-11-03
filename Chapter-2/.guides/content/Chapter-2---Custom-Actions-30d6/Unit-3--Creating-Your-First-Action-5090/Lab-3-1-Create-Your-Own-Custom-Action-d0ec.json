@@ -1,0 +1,21 @@
+{
+	"id": "d0ecc1b2-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "Lab 3.1 Create Your Own Custom Action",
+	"files": [
+		{
+			"path": "chapter2/actions/action_bank_hours.py",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

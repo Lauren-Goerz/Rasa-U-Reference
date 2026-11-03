@@ -1,0 +1,6 @@
+flows:
+  contact:
+    name: contact information
+    description: Provide contact information for the bank.
+    steps:
+      - action: utter_contact

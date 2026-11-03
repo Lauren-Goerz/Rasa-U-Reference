@@ -1,0 +1,6 @@
+# Copy this file to rasa_env and replace with your real values.
+# In Codio: secure/rasa_env is sourced by .guides/startup.sh so vars load in every terminal.
+# Do not commit secure/rasa_env (it is in .gitignore).
+
+export RASA_LICENSE=your-rasa-pro-license
+export OPENAI_API_KEY=your-openai-api-key

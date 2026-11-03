@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4006063428",
+	"source": {
+		"name": "Chapter 1: Lab 5.1 - Exploring the Configuration Files - LLM Model Identification",
+		"showName": false,
+		"instructions": "**What LLM model id is configured for this agent?** (Check **`endpoints.yml`** under **`model_groups`** → **`model:`**.)",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "123a6c93-8747-71a1-3683-ef27429c9685",
+				"correct": false,
+				"answer": "gemini-2.0-flash"
+			},
+			{
+				"_id": "f747af3c-676d-1b48-14cf-1bc2eb6232b8",
+				"correct": false,
+				"answer": "mistral-large-latest"
+			},
+			{
+				"_id": "f84749b9-c1e5-b25c-f198-5867a6eec468",
+				"correct": true,
+				"answer": "rasa/command-generator-llama-3.1-8b-instruct"
+			},
+			{
+				"_id": "66b92118-38b5-3cff-0748-c39ddef19795",
+				"correct": false,
+				"answer": "openai-gpt-5-1"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify the LLM model id configured in endpoints.yml (model_groups)",
+		"guidance": "In **`endpoints.yml`**, under **`model_groups`**, the **`model:`** field is **`rasa/command-generator-llama-3.1-8b-instruct`** (Rasa tutorial provider at **`https://tutorial-llm.rasa.ai`**). That is the LLM id used for this agent’s configured model group.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

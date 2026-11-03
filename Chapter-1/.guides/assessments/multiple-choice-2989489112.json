@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2989489112",
+	"source": {
+		"name": "Chapter 1: 1.2 File Structure Basics",
+		"showName": true,
+		"instructions": "**Which file contains the template responses that the agent can use for more guided conversation with users?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "488da4b7-01ca-8529-f739-b371a05a50c8",
+				"correct": false,
+				"answer": "`config.yml`"
+			},
+			{
+				"_id": "4775a883-9ee4-699c-ec6a-c9376ea75d4c",
+				"correct": true,
+				"answer": "`domain/basics.yml`"
+			},
+			{
+				"_id": "97e9a79b-e15c-4870-dd5b-56125f7d8f4e",
+				"correct": false,
+				"answer": "`data/basics/greet.yml`"
+			},
+			{
+				"_id": "513b6061-b4bd-c9c7-e571-ff171a0ffd69",
+				"correct": false,
+				"answer": "`endpoints.yml`"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify the purpose of different files in a chat agent project structure",
+		"guidance": "The correct answer is `domain/basics.yml`. As explained in the file purpose overview, this file is the agent's knowledge base: it defines the response templates the agent can draw on. Flows in `data/` orchestrate the conversation; `config.yml` defines how the agent is built; `data/basics/greet.yml` holds flow scripts; and `endpoints.yml` defines where to find custom actions and LLM configurations.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-350500005",
+	"source": {
+		"name": "Lab 3.5: Complete Your Agent for Training",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following checks must pass:\n\n• Check 1: Domain has `utter_hours` and `utter_balance` with the correct text.\n• Check 2: `data/basics/hours.yml` exists with flow `hours.yml` and step `utter_hours`.\n• Check 3: `data/basics/balance.yml` exists with flow `balance.yml` and step `utter_balance`.",
+		"command": "python3 /home/codio/workspace/.guides/secure/level1_graders/lab_3.5_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level1_graders/lab_3.5_grader.py"
+			],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 3,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Step 1: PASSED",
+				"showFeedback": true,
+				"feedback": "Domain has utter_hours and utter_balance with the required handout text."
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Step 2: PASSED",
+				"showFeedback": true,
+				"feedback": "data/basics/hours.yml exists with flow 'hours' and step utter_hours."
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Step 3: PASSED",
+				"showFeedback": true,
+				"feedback": "data/basics/balance.yml exists with flow 'balance' and step utter_balance."
+			}
+		]
+	}
+}

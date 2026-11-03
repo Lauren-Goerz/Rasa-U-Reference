@@ -1,0 +1,71 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2055505786",
+	"source": {
+		"name": "Chapter 1: 2.2 Understanding Responses",
+		"showName": false,
+		"instructions": "**Which of the following statements about Rasa responses are correct? Select all that apply.**",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c0afdf65-bbd4-6b60-88a4-23eebdb29b33",
+				"correct": true,
+				"answer": "A Rasa convention is to start response names with the prefix 'utter_'"
+			},
+			{
+				"_id": "b39018e5-a044-992e-6d9f-d539fe1690a6",
+				"correct": true,
+				"answer": "Setting 'rephrase: True' in metadata allows the LLM to vary the wording while keeping the same meaning"
+			},
+			{
+				"_id": "a17e769a-61dd-9f98-6077-6e12f7cf5d09",
+				"correct": false,
+				"answer": "When multiple text variations are provided for a response, Rasa will use all of them in sequence"
+			},
+			{
+				"_id": "ec979b58-3f7f-5ab7-84e2-0a305cdbf545",
+				"correct": false,
+				"answer": "Responses are defined in the actions file, not the domain file"
+			},
+			{
+				"_id": "4652b885-c72d-fdc6-3c10-3e2d0a9246d6",
+				"correct": true,
+				"answer": "Defining responses as a list allows for multiple message variations that Rasa can randomly select from"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"level1/domain/basics.yml"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "level1/domain/basics.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT identify and explain key components of Rasa responses",
+		"guidance": "The correct answers are:\n\n1. Most examples of responses in Rasa start with the prefix 'utter_' - This is a Rasa convention that can be followed, useful when you are searching through your project looking for responses. \n\n2. Setting 'rephrase: True' in metadata allows the LLM to vary the wording while keeping the same meaning - This makes conversations feel more natural by avoiding repetitive exact phrases.\n\n3. Defining responses as a list allows for multiple message variations that Rasa can randomly select from - This is correct; when multiple text variations are provided, Rasa will randomly select one when the response is used.\n\nThe incorrect options are:\n\n- When multiple text variations are provided for a response, Rasa will use all of them in sequence - This is incorrect; Rasa randomly selects one variation rather than using them in sequence.\n\n- Responses are defined in the actions file, not the domain file - This is incorrect; responses are defined in the domain file as shown in the example.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": "5e12ab03-13d3-502a-8b9d-9fb1cabba191",
+	"title": "6.2 Chapter 3 Complete",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Preview how Chapter 4 builds on Chapter 3."
+}

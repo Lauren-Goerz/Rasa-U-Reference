@@ -1,0 +1,20 @@
+{
+	"id": "40d6decb-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "Lab 4.1 Registering Custom Actions in the Domain",
+	"files": [
+		{
+			"path": "chapter2/domain/basics.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

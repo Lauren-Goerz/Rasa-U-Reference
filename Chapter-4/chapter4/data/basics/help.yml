@@ -1,0 +1,6 @@
+flows:
+  help:
+    name: help
+    description: Explain what the agent can do.
+    steps:
+      - action: utter_help

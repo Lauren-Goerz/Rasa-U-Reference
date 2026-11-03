@@ -1,0 +1,25 @@
+{
+	"id": "d928c94a-8c6c-5748-a3f5-e4a1794f5616",
+	"title": "2.1 Registering Slots in Domain",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "chapter3/domain/basics.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Add and structure a slots section in the domain with ask responses and action registration."
+}

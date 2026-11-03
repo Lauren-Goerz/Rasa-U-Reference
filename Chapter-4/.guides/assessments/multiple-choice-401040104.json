@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-401040104",
+	"source": {
+		"name": "Chapter 4: 6.1 Knowledge Check - Chapter 4 transfer slots",
+		"showName": false,
+		"instructions": "**In Chapter 4, which slots do we add for the transfer flow?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a0104014-0001-4000-8000-000000000001",
+				"correct": false,
+				"answer": "Only `account`"
+			},
+			{
+				"_id": "a0104014-0002-4000-8000-000000000002",
+				"correct": true,
+				"answer": "`amount`, and `recipient`"
+			},
+			{
+				"_id": "a0104014-0003-4000-8000-000000000003",
+				"correct": false,
+				"answer": "`transfer`, `money`, and `flow`"
+			},
+			{
+				"_id": "a0104014-0004-4000-8000-000000000004",
+				"correct": false,
+				"answer": "`from_account` and `to_account`"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify Level 4 transfer flow slots",
+		"guidance": "Chapter 4 adds `amount`, and `recipient` for the transfer flow. `account`was added in the prior level for the `check_balance` flow. ",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

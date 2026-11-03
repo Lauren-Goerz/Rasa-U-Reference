@@ -1,0 +1,20 @@
+{
+	"id": "7109226d-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "4.1 Why Register Custom Actions?",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

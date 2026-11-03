@@ -1,0 +1,13 @@
+{
+	"id": "c351434a-d78c-5f12-939a-922aaf9ca6c7",
+	"title": "Chapter 3 - Slot Collection",
+	"type": "chapter",
+	"order": [
+		"Unit-1--Introduction-to-Memory-0bd1",
+		"Unit-2--Defining-Slots-in-the-Domain-2f2b",
+		"Unit-3--Reading-Slots-in-Actions-d696",
+		"Unit-4--Collecting-Slots-in-Flows-196b",
+		"Unit-5--Training-and-Testing-with-Slots-af03",
+		"Unit-6--Assessment-and-Next-Steps-5f83"
+	]
+}

@@ -1,0 +1,100 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-2989029150",
+	"source": {
+		"name": "Lab 2.1: Add EnterpriseSearchPolicy",
+		"showName": true,
+		"instructions": "Update your config.yml and endpoints.yml files.\n\nTo pass, all checks must pass:\n\nCheck 1: chapter5/config.yml exists. \nCheck 2: EnterpriseSearchPolicy is present in config.yml. \nCheck 3: config.yml has type: faiss and source: ./docs configured. \nCheck 4: config.yml references openai-gpt-5-mini and openai-embeddings model groups. \nCheck 5: chapter5/endpoints.yml exists. \nCheck 6: endpoints.yml defines openai-gpt-5-mini and openai-embeddings model groups with text-embedding-3-large.",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level5_graders/lab_2.2_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"level5/config.yml",
+				"level5/endpoints.yml",
+				"level4/config.yml"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "level5/config.yml"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "level5/endpoints.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 8,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 5: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 6: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

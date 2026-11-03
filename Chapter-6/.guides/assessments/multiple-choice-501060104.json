@@ -1,0 +1,28 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-501060104",
+	"source": {
+		"name": "Level 6: 6.4 Knowledge Check - when to use sub-agent",
+		"showName": false,
+		"instructions": "**When should you use a sub-agent instead of tools in the main agent?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{"_id": "a5010601-0017-4000-8000-000000000017", "correct": false, "answer": "Always; sub-agents replace tools"},
+			{"_id": "a5010601-0018-4000-8000-000000000018", "correct": true, "answer": "When you want to delegate a whole task to another agent that runs until it completes"},
+			{"_id": "a5010601-0019-4000-8000-000000000019", "correct": false, "answer": "Only for check_balance"},
+			{"_id": "a5010601-0020-4000-8000-000000000020", "correct": false, "answer": "When you have more than one flow"}
+		],
+		"metadata": {"tags": [{"name": "Assessment Type", "value": "Multiple Choice"}], "files": [], "opened": []},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT decide when to use sub-agents",
+		"guidance": "Use sub-agents to delegate a whole task; use tools in the main agent for dynamic tool calls in one context.",
+		"showGuidanceAfterResponseOption": {"type": "Attempts", "passedFrom": 1},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {"type": "Always"},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

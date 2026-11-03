@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-501060106",
+	"source": {
+		"name": "Chapter 6: 1.3 Test Your Knowledge - task_completed tool",
+		"showName": false,
+		"instructions": "In a general-purpose sub-agent in Rasa, how does the sub-agent tell the main agent it has finished?",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a5010602-0005-4000-8000-000000000005",
+				"correct": true,
+				"answer": "It calls the built-in `task_completed` tool, which exits the reasoning loop and returns control to the main flow"
+			},
+			{
+				"_id": "a5010602-0006-4000-8000-000000000006",
+				"correct": false,
+				"answer": "It sends a status code back through `endpoints.yml`"
+			},
+			{
+				"_id": "a5010602-0007-4000-8000-000000000007",
+				"correct": false,
+				"answer": "The main flow sets a timeout and automatically resumes after 30 seconds"
+			},
+			{
+				"_id": "a5010602-0008-4000-8000-000000000008",
+				"correct": false,
+				"answer": "It deletes its slot data, which the main agent detects as a completion signal"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT exit criteria for general sub-agents",
+		"guidance": "`task_completed` is the sub-agent's explicit signal that the task is done. The LLM calls it like any other tool. The loop exits and the main flow resumes at the next step after `call:`.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

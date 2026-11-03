@@ -1,0 +1,65 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1070925386",
+	"source": {
+		"name": "Lab 6.1: Training and Testing with Actions.",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following checks must pass (run from chapter2 with .venv active):\n\n• Check 1: A model file (.tar.gz) exists in chapter2/models/ (run 'python -m rasa train' to create it).\n• Check 2: Training completed without errors (no errors/exceptions in logs).",
+		"command": "bash /home/codio/workspace/.guides/secure/level2_graders/lab_6.1_grader.sh",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level2_graders/lab_6.1_grader.sh"
+			],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "",
+		"guidance": "The grader checks that a model file exists under models/ and that training completed without errors (per lab verification).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 4,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

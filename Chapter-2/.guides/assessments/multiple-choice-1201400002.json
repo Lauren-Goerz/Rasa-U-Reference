@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1201400002",
+	"source": {
+		"name": "Chapter 2: 1.4 Test Your Knowledge - Actions vs Responses",
+		"showName": false,
+		"instructions": "**How do custom actions differ from responses (utter_\\*) in Rasa?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567801",
+				"correct": false,
+				"answer": "Actions are defined in YAML; responses are defined in Python"
+			},
+			{
+				"_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567803",
+				"correct": false,
+				"answer": "Responses are used in flows; actions are only used in the domain file"
+			},
+			{
+				"_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567802",
+				"correct": true,
+				"answer": "Responses send predefined text only; actions run custom Python code and can do calculations, API calls, or dynamic logic"
+			},
+			{
+				"_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567804",
+				"correct": false,
+				"answer": "There is no difference; they are interchangeable"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT distinguish actions from responses",
+		"guidance": "Responses (utter_*) are predefined text messages with no custom logic, defined in `domain/basics.yml` under responses. \n\nActions (action_*) are custom Python code in the `actions/` folder, registered under actions in the domain; they can execute any logic, access databases, perform calculations, and send messages via the dispatcher.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

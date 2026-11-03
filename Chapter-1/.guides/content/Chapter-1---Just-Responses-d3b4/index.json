@@ -1,0 +1,15 @@
+{
+	"id": "d3b4e10c-dbf3-984e-0f31-ff2ce4c053ff",
+	"title": "Chapter 1 - Just Responses",
+	"type": "chapter",
+	"order": [
+		"Unit-1--Introduction-to-Rasa-Agents-06a7",
+		"Unit-2--Understanding-the-Domain-File-fdd0",
+		"Unit-3--Understanding-Flows-d9bc",
+		"Unit-4--System-Patterns-5729",
+		"Unit-5--Configuration-Files-2e3d",
+		"Unit-6--Training-and-Testing-9f4e",
+		"Unit-7--Putting-It-All-Together-1c8a",
+		"Unit-8--Assessment-and-Next-Steps-2d7b"
+	]
+}

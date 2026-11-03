@@ -1,0 +1,21 @@
+{
+	"id": "3938a3e7-f257-a8e5-a260-98b2e0a7125a",
+	"title": "Lab 3.3: Multi-Step Flow",
+	"files": [
+		{
+			"path": "chapter1/data/basics/greet.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Extend a flow with multiple ordered steps and verify structure against the domain."
+}

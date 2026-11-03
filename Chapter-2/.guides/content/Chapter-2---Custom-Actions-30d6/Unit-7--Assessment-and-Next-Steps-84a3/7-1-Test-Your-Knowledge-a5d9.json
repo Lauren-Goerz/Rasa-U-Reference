@@ -1,0 +1,20 @@
+{
+	"id": "a5d9e2c0-4b1e-4c3d-8f2a-7e6d5c4b3a21",
+	"title": "7.1 Test Your Knowledge",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Trace a conversation, map domain/flows/actions to the project, apply testing practices, and complete the wrap-up knowledge check."
+}

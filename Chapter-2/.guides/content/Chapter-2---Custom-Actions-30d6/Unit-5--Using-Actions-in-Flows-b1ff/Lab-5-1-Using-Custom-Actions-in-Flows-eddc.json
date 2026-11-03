@@ -1,0 +1,24 @@
+{
+	"id": "eddce19b-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "Lab 5.1 Using Custom Actions in Flows",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "chapter2/data/basics/greet.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": false,
+	"learningObjectives": ""
+}

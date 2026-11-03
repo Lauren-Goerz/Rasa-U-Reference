@@ -1,0 +1,21 @@
+{
+	"id": "d525feb0-a828-5295-add3-baafd9da9fb7",
+	"title": "Lab 2.1: Adding Multiple Slots in the Domain",
+	"files": [
+		{
+			"path": "chapter4/domain/basics.yml",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter4"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

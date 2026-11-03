@@ -1,0 +1,73 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-401040001",
+	"source": {
+		"name": "Lab 4.1: Creating the Transfer Flow",
+		"showName": true,
+		"instructions": "To pass, all checks must pass:\n\n• Check 1: `chapter4/data/basics/transfer_money.yml` exists.\n• Check 2: flows: includes a flow with name and steps.\n• Check 3: collect steps for amount, recipient, account.\n• Check 4: A step with `action: action_process_transfer`.\n\nFull score: 8/8.",
+		"command": "bash /home/codio/workspace/.guides/scripts/run_python_grader.sh /home/codio/workspace/.guides/secure/level4_graders/lab_4.1_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level4_graders/lab_4.1_grader.py"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "Fix transfer_money.yml per the failed check; valid YAML is required before later checks run.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 8,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

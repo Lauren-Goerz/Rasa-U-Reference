@@ -1,0 +1,96 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1451983168",
+	"source": {
+		"name": "Lab 4.1: Registering Actions in the Domain.",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following checks must pass (in chapter2/domain/basics.yml):\n\n• Check 1: domain/basics.yml exists.\n• Check 2: An actions: section exists.\n• Check 3: action_bank_hours is registered under actions:.\n• Check 4: action_holiday_hours is registered under actions:.\n• Check 5: Both actions use correct YAML list syntax (dash format).\n• Check 6: The domain file is valid YAML (no syntax errors).",
+		"command": "bash /home/codio/workspace/.guides/secure/level2_graders/lab_4.1_grader.sh",
+		"preExecuteCommand": "cd /home/codio/workspace/chapter2",
+		"options": {
+			"timeout": 60,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"chapter2/domain/basics.yml",
+				"level2/actions/action_bank_hours.py",
+				"level2/domain/basics.yml",
+				".guides/secure/level2_graders/lab_4.1_grader.sh"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter2/domain/basics.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 11,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"arePartialPointsAllowed": true,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 1: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 2: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 3: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 4: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 5: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "",
+				"input": "",
+				"output": "Check 6: PASSED",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		]
+	}
+}

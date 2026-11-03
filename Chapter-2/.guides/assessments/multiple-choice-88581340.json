@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-88581340",
+	"source": {
+		"name": "Chapter 2: 7.1 See it all together - What is an Action",
+		"showName": false,
+		"instructions": "**What is an custom action?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8d9bb7d4-3a2c-ad95-dc32-2bd1e0334020",
+				"correct": false,
+				"answer": "A predefined agent message"
+			},
+			{
+				"_id": "bc201250-4cf7-dd61-aa73-f1897b3016ca",
+				"correct": true,
+				"answer": "Custom Python code the agent can execute"
+			},
+			{
+				"_id": "b393f44d-d07d-7632-5d1f-4eab4cbf0a63",
+				"correct": false,
+				"answer": "A conversation script"
+			},
+			{
+				"_id": "2f74ad4f-405a-a34d-eb48-f02b47a3e5d3",
+				"correct": false,
+				"answer": "A configuration file"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT define what an action is in Rasa",
+		"guidance": "Actions are Python classes that execute custom code. They allow the agent to do more than send static text—they can perform calculations, access databases, and run any Python logic.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

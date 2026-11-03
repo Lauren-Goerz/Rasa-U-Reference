@@ -1,0 +1,58 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-303200002",
+	"source": {
+		"name": "Lab 3.2: Creating Your First Flow (goodbye.yml)",
+		"showName": true,
+		"instructions": "To pass this assessment, all of the following checks must pass:\n\n• Check 1: `data/basics/goodbye.yml` has the correct flow structure.",
+		"command": "python3 /home/codio/workspace/.guides/secure/level1_graders/lab_3.2_grader.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 15,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				".guides/secure/level1_graders/lab_3.2_grader.py"
+			],
+			"opened": [
+				{
+					"type": "terminal",
+					"panelNumber": 1,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": "",
+		"guidance": "Ensure `chapter1/data/basics/goodbye.yml` has `flows:`, `goodbye:`, `name:`, `description:`, `steps:`, and `- action: utter_goodbye`. Use 2-space indentation.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 10,
+		"showExpectedAnswerOption": {
+			"type": "WhenGradesReleased"
+		},
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "PASS",
+				"showFeedback": true,
+				"feedback": "data/basics/goodbye.yml has correct flow structure (flows:, goodbye:, name:, description:, steps: with utter_goodbye)."
+			}
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": "d63adf59-51a2-5bcc-b9ed-cc26f7a317db",
+	"title": "Lab 5.1: Training Your Agent with Slots",
+	"files": [
+		{
+			"path": "#terminal",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter3"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "Train from chapter3 with venv active, verify models/, and complete Check It!."
+}

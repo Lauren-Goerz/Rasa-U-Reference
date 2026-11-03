@@ -1,0 +1,20 @@
+{
+	"id": "60a75422-d134-9655-af2d-d3cb5025888c",
+	"title": "1.1 What is a Conversational Agent?",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter1"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

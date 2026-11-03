@@ -1,0 +1,25 @@
+{
+	"id": "level5-page-4-1-Using-Tools-in-a-Flow-L5e1",
+	"title": "Lab 4.1 Train for Search",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "#terminal: ",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"layout": "2-panels-tree-guides-left",
+	"path": [
+		"chapter5"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": false,
+	"learningObjectives": ""
+}

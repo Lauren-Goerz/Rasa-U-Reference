@@ -1,0 +1,15 @@
+{
+	"id": "8b2b6e4f-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+	"title": "2.3 Test Your Knowledge",
+	"files": [],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter2"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

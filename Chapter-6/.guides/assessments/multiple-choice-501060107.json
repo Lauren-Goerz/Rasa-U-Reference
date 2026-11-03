@@ -1,0 +1,58 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-501060107",
+	"source": {
+		"name": "Chapter 6: 1.3 Test Your Knowledge - MCP Server",
+		"showName": false,
+		"instructions": "What does the MCP server expose to the sub-agent's LLM?",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a5010602-0009-4000-8000-000000000009",
+				"correct": true,
+				"answer": "Callable functions, called tools, that the LLM can invoke during its reasoning loop"
+			},
+			{
+				"_id": "a5010602-0010-4000-8000-000000000010",
+				"correct": false,
+				"answer": "A copy of the conversation history from the main agent"
+			},
+			{
+				"_id": "a5010602-0011-4000-8000-000000000011",
+				"correct": false,
+				"answer": "The sub-agent's `config.yml` settings at runtime"
+			},
+			{
+				"_id": "a5010602-0012-4000-8000-000000000012",
+				"correct": false,
+				"answer": "The Rasa flow definitions the sub-agent can call"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT what the MCP server exposes in a sub-agent",
+		"guidance": "MCP (Model Context Protocol) is a standard for exposing callable functions to an LLM. The sub-agent's LLM discovers what tools are available, calls them during the ReAct loop, and processes their results to decide what to do next.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

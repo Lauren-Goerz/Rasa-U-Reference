@@ -1,0 +1,20 @@
+{
+	"id": "633e52fb-702b-5628-881d-ff2e2df7d96d",
+	"title": "4.1 Using ask_before_filling",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"layout": "1-panel-tree",
+	"path": [
+		"chapter4"
+	],
+	"type": "page",
+	"contentType": "markdown",
+	"content": "",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": ""
+}

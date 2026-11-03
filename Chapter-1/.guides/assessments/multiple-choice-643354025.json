@@ -1,0 +1,66 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-643354025",
+	"source": {
+		"name": "Lab 4.1: Understanding System Patterns",
+		"showName": true,
+		"instructions": "**What is the main purpose of the `pattern_session_start` in the `patterns.yml` file?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8fdfbdbc-764c-3890-69ae-23f09216f7e2",
+				"correct": false,
+				"answer": "To end a conversation when a user says goodbye"
+			},
+			{
+				"_id": "b354ab40-cf7d-ab1c-d54c-95c0cfdc6e05",
+				"correct": false,
+				"answer": "To send an error message when the system doesn't understand the user"
+			},
+			{
+				"_id": "69b5cdda-d8cc-0db6-91ca-abfbf0f8b21d",
+				"correct": true,
+				"answer": "To automatically trigger the action of `utter_greet` when a conversation begins without requiring a user message"
+			},
+			{
+				"_id": "233c0076-a227-a3c4-07d2-bde2d48f78bd",
+				"correct": false,
+				"answer": "To store user information in a database at the start of a conversation"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"level1/data/system/patterns/patterns.yml"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "level1/data/system/patterns/patterns.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT understand the purpose of system patterns in conversation flow",
+		"guidance": "The correct answer is that `pattern_session_start` automatically triggers the **`utter_greet`** response action when a conversation begins without requiring a user message (as in the `- action: utter_greet` step in `patterns.yml`). The `nlu_trigger` with `intent: session_start` ties this to the system session-start intent. The other options are incorrect because: ending conversations is handled by `pattern_completed` with its `noop: true` and `next: END` attributes; the file doesn't mention error handling; and there's no indication of database storage in the provided information.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}

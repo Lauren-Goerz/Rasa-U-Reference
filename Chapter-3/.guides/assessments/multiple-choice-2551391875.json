@@ -1,0 +1,67 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2551391875",
+	"source": {
+		"name": "Chapter 3: 2.1 slot definition location",
+		"showName": false,
+		"instructions": "**Where are slots defined?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "4d39c1b5-5373-e8ce-c7a8-8d3c5e0c8812",
+				"correct": false,
+				"answer": "In `data/basics/*.yml`"
+			},
+			{
+				"_id": "7d6432e6-6e90-9d2d-0c0c-1d0ad052cdb9",
+				"correct": false,
+				"answer": "In `config.yml`"
+			},
+			{
+				"_id": "76071811-b84d-1afc-01bd-ad82fb2ff8ac",
+				"correct": true,
+				"answer": "In `domain/basics.yml` under a `slots:` section"
+			},
+			{
+				"_id": "92f0ef21-dcb1-75f7-7ae3-73de34dc65c3",
+				"correct": false,
+				"answer": "In the actions Python files"
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"chapter3/domain/basics.yml",
+				"level3/domain/basics.yml"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "chapter3/domain/basics.yml"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT identify where slots are defined in Rasa",
+		"guidance": "Slots are defined in the domain file under the top-level `slots:` section. The domain file contains the agent's vocabulary and configuration, including slot definitions. The other options are incorrect: `data/basics/*.yml` contains training data, `config.yml` contains pipeline configuration, and actions Python files contain custom action code but not slot definitions.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 1
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswerOption": {
+			"type": "Always"
+		},
+		"points": 5,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"useMaximumScore": false
+	}
+}
